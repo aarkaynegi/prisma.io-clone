@@ -61,6 +61,15 @@ p {
   color: #4a5568
 }
 
+a {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.nav-link {
+  padding: 12px 16px;
+}
+
 .hero-bg {
   background-image: url('./assets/images/hero-lines.svg');
   background-repeat: no-repeat;

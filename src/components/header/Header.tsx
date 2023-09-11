@@ -1,6 +1,7 @@
 import { HeaderButton } from './HeaderButton'
 import { HeaderLogo } from './HeaderLogo'
 import { NavBar } from './NavBar'
+import './Header.css'
 
 export function Header() {
   return (
