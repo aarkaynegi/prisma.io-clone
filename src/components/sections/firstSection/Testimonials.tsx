@@ -1,4 +1,18 @@
-const testimonials = [
+import React from 'react'
+import Slider, { Settings } from 'react-slick'
+import 'slick-carousel/slick/slick-theme.css'
+import 'slick-carousel/slick/slick.css'
+
+interface ITestimonials {
+  id: number
+  author: string
+  designation: string
+  at: string
+  company: string
+  comment: string
+}
+
+const testimonials: ITestimonials[] = [
   {
     id: 1,
     author: 'Lasse Abelsen',
@@ -28,4 +42,16 @@ const testimonials = [
   },
 ]
 
-export function Testimonials() {}
+export const Testimonials: React.FC = () => {
+  const sliderSetting: Settings = {
+    arrows: true,
+    slidesToShow: 3,
+    swipeToSlide: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
+  }
+  
+  return <Slider {...sliderSetting}>
+
+  </Slider>
+}
