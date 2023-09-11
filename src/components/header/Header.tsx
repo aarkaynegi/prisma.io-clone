@@ -1,9 +1,10 @@
 import logo from '../../assets/images/prisma-logo-dark.svg'
 
 export function Header() {
+  console.log(logo)
   return (
     <>
-      <div className="flex justify-between items-center max-w-[1248px] px-[1.5rem] py-[8px] m-auto">
+      <div className="flex sm:justify-between items-center max-w-[1248px] px-[1.5rem] py-[8px] m-auto">
         <div className="logo">
           <a href="./">
             <img
@@ -14,9 +15,6 @@ export function Header() {
               className="block cursor-pointer"
             />
           </a>
-          <button className="toggleBtn">
-            <i className="fa-solid fa-bars"></i>
-          </button>
         </div>
         <div className="nav">
           <nav>
@@ -41,7 +39,7 @@ export function Header() {
           </nav>
         </div>
         <div className="get-started flex gap-16 items-center">
-          <button className="rounded bg-[#5A67D8] hover:bg-[#4C51BF] text-[#ffffff] font-bold px-[24px] py-[16px] m-[4px] text-14px leading-[14px]">
+          <button className="rounded bg-[#5A67D8] hover:bg-[#4C51BF] text-[#ffffff] font-bold px-[24px] py-[16px] m-[4px] text-14px lineHeight-[14px]">
             Get Started
           </button>
           <a href="github.com">

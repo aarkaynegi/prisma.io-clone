@@ -2,11 +2,11 @@ export function Hero() {
   return (
     <>
       <div className="hero-section pt-[104px] pb-[85px] hero-bg">
-        <div className="flex px-[1.5rem] m-auto gap-8 max-w-[1248px]">
+        <div className="flex px-[1.5rem] m-auto gap-8 max-w-[1248px] items-center	">
           <div className="section-body">
             <div>
               <h1 className="hero-title headingColor font-bold">
-                Next Generation <span className="priDark">Node.js</span> and{' '}
+                Next-generation <span className="priDark">Node.js</span> and{' '}
                 <span className="priDark">TypeScript</span> ORM
               </h1>
             </div>
