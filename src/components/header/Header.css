@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
 .nav-link {
     position: relative;
     transition: ease-in-out 0.2s;
@@ -23,3 +25,59 @@
 .nav-link:hover::after {
     opacity: 1;
 }
+
+.nav-link:hover>.nav-item>i {
+    transform: rotate3d(1, 0, 0, 180deg);
+}
+
+.nav-link .nav-sub-item {
+    display: none;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 400px;
+}
+
+.nav-link:hover .nav-sub-item {
+    display: block;
+}
+
+.nav-link .nav-sub-item .nav-sub-item-heading span {
+    margin-left: 8px;
+    background: var(--pri);
+    border-radius: 99px;
+    padding: 6px 8px;
+    font-size: 8px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+}
+
+.nav-link .nav-sub-item a>div:has(i) {
+    background-color: #f7fafc;
+    border-radius: 5px;
+    padding: 8px;
+    width: 38px;
+    aspect-ratio: 1;
+    display: grid;
+    place-items: center;
+}
+
+.nav-link .nav-sub-item a {
+    cursor: pointer;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    text-decoration: none;
+    padding: 0px 1rem 0px 2rem;
+    margin-bottom: 1rem;
+}
+
+
+.nav-link h4 {
+    font-family: 'Barlow', sans-serif;
+    padding: 0 2rem;
+    margin: 0.75rem 0 1.125rem 0;
+}
+
+/* #f7fafc */
