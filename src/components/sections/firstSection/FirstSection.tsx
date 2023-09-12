@@ -1,4 +1,5 @@
 import './FirstSection.css'
+import { Testimonials } from './Testimonials'
 
 export function FirstSection() {
   return (
@@ -27,7 +28,9 @@ export function FirstSection() {
             </div>
           </div>
         </div>
-        <div className=""></div>
+        <div className="">
+          <Testimonials />
+        </div>
       </div>
     </>
   )
