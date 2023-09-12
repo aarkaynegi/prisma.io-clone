@@ -7,8 +7,13 @@ export function FirstSection() {
       <div className="first-section pt-[64px] pb-[116px]">
         <div className="px-[1.5rem] m-auto max-w-[1248px]">
           <div className="flex text-[#ffffff] justify-around">
-            <div className="flex items-center">
-              <a href="https://github.com/prisma/prisma">Link</a>
+            <div className="flex items-center relative">
+              <a
+                href="https://github.com/prisma/prisma"
+                className="absolute w-full h-[40px]"
+              >
+                {'\u00A0'}
+              </a>
               <i className="fa-brands fa-github fa-2x me-[24px]"></i>
               <span className="font-[700] text-[38px] leading-[100%] me-[8px]">
                 30k+

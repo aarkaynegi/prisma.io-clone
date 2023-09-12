@@ -2,14 +2,16 @@ import React from 'react'
 import Slider, { Settings } from 'react-slick'
 import 'slick-carousel/slick/slick-theme.css'
 import 'slick-carousel/slick/slick.css'
+import './Testimonials.css'
+import path from 'path'
 
 interface ITestimonials {
   id: number
   author: string
   designation: string
-  at: string
   company: string
   comment: string
+  profile: string
 }
 
 const testimonials: ITestimonials[] = [
@@ -17,32 +19,33 @@ const testimonials: ITestimonials[] = [
     id: 1,
     author: 'Lasse Abelsen',
     designation: 'DevOps Engineer',
-    at: 'at',
     company: 'Tryg',
     comment:
       '“Our setup with Prisma enabled us to <b>generate everything from code</b> and ensure our developers can iterate very quickly.”',
+    profile: '../../../assets/images/lesse-abelsen.webp',
   },
   {
     id: 2,
     author: 'Serghei Ghidora',
     designation: 'Tech Lead',
-    at: 'at',
     company: 'Elsevier',
     comment:
       '“The flexibility of <b>moving fast</b> and changing the product based on user feedback fast was crucial”',
+    profile: '/assets/images/serghei-ghidora.webp',
   },
   {
     id: 3,
     author: 'Tom Hutchinson',
     designation: 'Head of Mobile',
-    at: 'at',
     company: 'Rapha',
     comment:
       '“Prisma helps us <b>unify data access</b> from multiple enterprise systems into a single API. It means we can move very quickly whilst staying flexible.”',
+    profile: '../../assets/images/tom-hutchinson.webp',
   },
 ]
 
 export const Testimonials: React.FC = () => {
+  console.log(path)
   const sliderSetting: Settings = {
     arrows: true,
     slidesToShow: 3,
@@ -50,8 +53,29 @@ export const Testimonials: React.FC = () => {
     autoplay: true,
     autoplaySpeed: 2000,
   }
-  
-  return <Slider {...sliderSetting}>
 
-  </Slider>
+  return (
+    <Slider {...sliderSetting}>
+      {testimonials.map((testimonial) => (
+        <div className="">
+          <span className="icon">“</span>
+          <span className="">{testimonial.comment}</span>
+          <div className="">
+            <img src={testimonial.profile} alt={testimonial.profile} />
+            <div>
+              <span className="sc-hRJfrW hpMesL author">
+                {testimonial.author}
+              </span>
+              <span className="sc-hRJfrW hpMesL title">
+                {testimonial.designation} at
+              </span>
+              <span className="sc-hRJfrW hpMesL company">
+                {testimonial.company}
+              </span>
+            </div>
+          </div>
+        </div>
+      ))}
+    </Slider>
+  )
 }
