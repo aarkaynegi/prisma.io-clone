@@ -58,9 +58,10 @@ export const Testimonials: React.FC = () => {
           <span className="pri icon absolute top-[20px] left-[53px] text-[74px]">
             “
           </span>
-          <span className="textNormal pt-[53px] mb-[24px]">
-            {testimonial.comment}
-          </span>
+          <span
+            className="textNormal pt-[53px] mb-[24px]"
+            dangerouslySetInnerHTML={{ __html: testimonial.comment }}
+          />
           <div className="">
             <img
               src={`images/testimonials/${testimonial.profile}`}
