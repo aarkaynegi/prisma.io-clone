@@ -26,7 +26,7 @@ code {
   --sec: #1A212D;
   --ter: #16A394;
   --terDark: #17877A;
-
+  --textNormal: #4a5568;
   --headingColor: #1a202c;
 
   --black: #000000;
@@ -48,6 +48,14 @@ svg {
 
 .priDark {
   color: var(--priDark)
+}
+
+.pri {
+  color: var(--pri)
+}
+
+.textNormal {
+  color: var(--textNormal);
 }
 
 h1 {
