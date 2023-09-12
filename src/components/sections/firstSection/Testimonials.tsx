@@ -13,6 +13,8 @@ interface ITestimonials {
   profile: string
 }
 
+const SPACE_CHAR = '\u00A0'
+
 const testimonials: ITestimonials[] = [
   {
     id: 1,
@@ -54,29 +56,32 @@ export const Testimonials: React.FC = () => {
   return (
     <Slider {...sliderSetting}>
       {testimonials.map((testimonial) => (
-        <div className="py-[30px] pl-[53px] pr-[46px] max-w-[966px] rounded-[10px] bg-white relative">
-          <span className="pri icon absolute top-[20px] left-[53px] text-[74px]">
-            “
-          </span>
-          <span
-            className="textNormal pt-[53px] mb-[24px]"
-            dangerouslySetInnerHTML={{ __html: testimonial.comment }}
-          />
-          <div className="">
-            <img
-              src={`images/testimonials/${testimonial.profile}`}
-              alt={testimonial.profile}
+        <div className='p-[30px]'>
+          <div className="py-[30px] pl-[53px] pr-[46px] max-w-[966px] rounded-[10px] bg-white relative flex flex-col">
+            <span className="pri icon absolute top-[20px] left-[53px] text-[74px]">
+              “
+            </span>
+            <span
+              className="textNormal pt-[53px] mb-[24px] text-[24px]"
+              dangerouslySetInnerHTML={{ __html: testimonial.comment }}
             />
-            <div>
-              <span className="sc-hRJfrW hpMesL author">
-                {testimonial.author}
-              </span>
-              <span className="sc-hRJfrW hpMesL title">
-                {testimonial.designation} at
-              </span>
-              <span className="sc-hRJfrW hpMesL company">
-                {testimonial.company}
-              </span>
+            <div className="flex items-center gap-[20px] textLight fontBarlow leading-[140%]">
+              <img
+                className="rounded-[100%] w-[84px] h-[84px] object-cover shrink-0"
+                src={`images/testimonials/${testimonial.profile}`}
+                alt={testimonial.profile}
+              />
+              <div>
+                <span className="textNormal font-bold text-[24px] leading-[140%] block">
+                  {testimonial.author}
+                </span>
+                <span className="text-[24px] leading-[140%] fontInter">
+                  {testimonial.designation} at{SPACE_CHAR}
+                </span>
+                <span className="text-[24px] leading-[140%] font-bold pri text-[24px] fontInter">
+                  {testimonial.company}
+                </span>
+              </div>
             </div>
           </div>
         </div>
