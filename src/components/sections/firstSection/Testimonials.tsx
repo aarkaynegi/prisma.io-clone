@@ -44,25 +44,65 @@ const testimonials: ITestimonials[] = [
   },
 ]
 
+function SampleNextArrow(props: any) {
+  const { className, style, onClick } = props
+  return <div className={className} onClick={onClick} />
+}
+
+function SamplePrevArrow(props: any) {
+  const { className, style, onClick } = props
+  return <div className={className} onClick={onClick} />
+}
+
 export const Testimonials: React.FC = () => {
   const sliderSetting: Settings = {
     arrows: true,
-    slidesToShow: 3,
+    slidesToShow: 2.5,
     swipeToSlide: true,
+    touchMove: true,
+    touchThreshold: 1,
     autoplay: true,
     autoplaySpeed: 2000,
+    infinite: false,
+    slidesToScroll: 1,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
+    responsive: [
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          swipeToSlide: true,
+          autoplay: true,
+          dots: false,
+          infinite: false,
+        },
+      },
+      {
+        breakpoint: 991,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          swipeToSlide: true,
+          autoplay: true,
+          dots: false,
+          infinite: false,
+        },
+      },
+    ],
   }
 
   return (
-    <Slider {...sliderSetting}>
+    <Slider {...sliderSetting} className="mt-[30px]">
       {testimonials.map((testimonial) => (
-        <div className='p-[30px]'>
-          <div className="py-[30px] pl-[53px] pr-[46px] max-w-[966px] rounded-[10px] bg-white relative flex flex-col">
-            <span className="pri icon absolute top-[20px] left-[53px] text-[74px]">
+        <div className="p-[30px]">
+          <div className="py-[30px] pl-[53px] pr-[46px] max-w-[966px] rounded-[10px] bg-white relative flex flex-col testimonialShadow">
+            <span className="pri icon absolute top-[20px] left-[53px] text-[74px] fontInter">
               “
             </span>
             <span
-              className="textNormal pt-[53px] mb-[24px] text-[24px]"
+              className="textNormal pt-[53px] mb-[24px] text-[24px] fontInter"
               dangerouslySetInnerHTML={{ __html: testimonial.comment }}
             />
             <div className="flex items-center gap-[20px] textLight fontBarlow leading-[140%]">
@@ -72,7 +112,7 @@ export const Testimonials: React.FC = () => {
                 alt={testimonial.profile}
               />
               <div>
-                <span className="textNormal font-bold text-[24px] leading-[140%] block">
+                <span className="textNormal font-bold text-[24px] leading-[140%] block fontInter">
                   {testimonial.author}
                 </span>
                 <span className="text-[24px] leading-[140%] fontInter">

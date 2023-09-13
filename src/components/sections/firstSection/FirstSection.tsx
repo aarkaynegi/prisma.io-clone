@@ -6,7 +6,7 @@ export function FirstSection() {
     <>
       <div className="first-section pt-[64px] pb-[116px]">
         <div className="px-[1.5rem] m-auto max-w-[1248px]">
-          <div className="flex text-[#ffffff] justify-around">
+          <div className="flex text-[#ffffff] items-center gap-[30px] md:gap-0 md:justify-around flex-col md:flex-row ">
             <div className="flex items-center relative">
               <a
                 href="https://github.com/prisma/prisma"
