@@ -1,0 +1,111 @@
+.testimonial {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3d5a80;
+    color: #3d5a80;
+}
+
+.testimonial-slide {
+    padding: 40px 20px;
+}
+
+.testimonial_box-top {
+    background-color: #e0fbfc;
+    padding: 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 5px 5px 20px rgba(152, 193, 217, 0.493);
+}
+
+.testimonial_box-icon {
+    padding: 10px 0;
+}
+
+.testimonial_box-icon i {
+    font-size: 25px;
+    color: #14213d;
+}
+
+.testimonial_box-text {
+    padding: 10px 0;
+}
+
+.testimonial_box-text p {
+    color: #293241;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 0;
+}
+
+.testimonial_box-img {
+    padding: 20px 0 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial_box-img img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    border: 2px solid #e5e5e5;
+}
+
+.testimonial_box-name {
+    padding-top: 10px;
+}
+
+.testimonial_box-name h4 {
+    font-size: 20px;
+    line-height: 25px;
+    color: #293241;
+    margin-bottom: 0;
+}
+
+.testimonial_box-job p {
+    color: #293241;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    line-height: 20px;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.testimonialShadow {
+    box-shadow: rgba(0, 19, 53, 0.06) 0px 9px 27px, rgba(0, 19, 53, 0.043) 0px 3.75998px 11.28px, rgba(0, 19, 53, 0.035) 0px 2.01027px 6.0308px, rgba(0, 19, 53, 0.03) 0px 1.12694px 3.38082px, rgba(0, 19, 53, 0.024) 0px 0.598509px 1.79553px, rgba(0, 19, 53, 0.016) 0px 0.249053px 0.747159px;
+}
+
+.slick-next {
+    z-index: 1;
+    right: calc(50% - 35px);
+    top: calc(100% + 25px);
+}
+
+.slick-prev {
+    left: calc(50% - 35px);
+    z-index: 1;
+    top: calc(100% + 25px);
+}
+
+.slick-prev::before {
+    content: "\f060";
+}
+
+.slick-next::before {
+    content: "\f061";
+}
+
+.slick-prev::before,
+.slick-next::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: #000;
+    font-size: 28px;
+}

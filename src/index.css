@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Inter:wght@400;700&display=swap');
 
 body {
   margin: 0;
@@ -26,9 +27,9 @@ code {
   --sec: #1A212D;
   --ter: #16A394;
   --terDark: #17877A;
-
+  --textNormal: #4a5568;
+  --textLight: #718096;
   --headingColor: #1a202c;
-
   --black: #000000;
   --white: #ffffff;
   --red: #ff0000;
@@ -41,6 +42,13 @@ svg {
   display: block;
 }
 
+.fontBarlow {
+  font-family: 'Barlow', sans-serif;
+}
+
+.fontInter {
+  font-family: 'Inter', sans-serif;
+}
 
 .headingColor {
   color: var(--headingColor);
@@ -48,6 +56,18 @@ svg {
 
 .priDark {
   color: var(--priDark)
+}
+
+.pri {
+  color: var(--pri)
+}
+
+.textNormal {
+  color: var(--textNormal);
+}
+
+.textLight {
+  color: var(--textLight);
 }
 
 h1 {
