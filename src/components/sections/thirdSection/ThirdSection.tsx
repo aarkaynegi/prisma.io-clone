@@ -2,12 +2,13 @@ import './ThirdSection.css'
 import thirdSectionSchema from '../../../assets/images/typesafe-database-client.svg'
 import vscode from '../../../assets/images/vscode.svg'
 import ts from '../../../assets/images/ts-framed.svg'
+import { Container } from 'components/container/Container'
 
 export function ThirdSection() {
   return (
     <>
       <div className="third-section">
-        <div className="max-w-[1248px] w-full px-[1.5rem] m-auto">
+        <Container>
           <div className="mb-[100px] mt-[82px] w-full items-center justify-between gap-[50px] inline-flex">
             <div className="max-w-[565px] w-full">
               <img src={thirdSectionSchema} alt="typesafe-database-client" />
@@ -158,7 +159,7 @@ export function ThirdSection() {
               </a>
             </div>
           </div>
-        </div>
+        </Container>
       </div>
     </>
   )
