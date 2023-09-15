@@ -2,6 +2,15 @@ import schemaImage from '../../../assets/images/second-section-schema.svg'
 import './SecondSection.css'
 
 export function SecondSection() {
+  const badgeItems = [
+    'PostgreSQL',
+    'MySQL',
+    'SQLite',
+    'SQL Server',
+    'MongoDB',
+    'CockroachDB',
+  ]
+
   return (
     <>
       <div className="second-section">
@@ -55,12 +64,9 @@ export function SecondSection() {
                   Supported Databases
                 </span>
                 <div className="badge-list group-hover:opacity-50">
-                  <div className="badge-item">PostgreSQL</div>
-                  <div className="badge-item">MySQL</div>
-                  <div className="badge-item">SQLite</div>
-                  <div className="badge-item">SQL Server</div>
-                  <div className="badge-item">MongoDB</div>
-                  <div className="badge-item">CockroachDB</div>
+                  {badgeItems.map((badge) => (
+                    <div className="badge-item">{badge}</div>
+                  ))}
                 </div>
                 <div className="hidden whitespace-nowrap p-[8px] bg-[#e2e8f0] text-[#4a5568] absolute left-[50%] top-[50%] font-bold rounded-[6px] translate-x-[-50%] translate-y-[-50%] z-[100] group-hover:block">
                   Prisma in your stack -&gt;
