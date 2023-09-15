@@ -45,12 +45,12 @@ const testimonials: ITestimonials[] = [
 ]
 
 function SampleNextArrow(props: any) {
-  const { className, style, onClick } = props
+  const { className, onClick } = props
   return <div className={className} onClick={onClick} />
 }
 
 function SamplePrevArrow(props: any) {
-  const { className, style, onClick } = props
+  const { className, onClick } = props
   return <div className={className} onClick={onClick} />
 }
 
