@@ -14,15 +14,15 @@ export function SecondSection() {
               <h2 className="text-[#2d3748] mb-[18px] text-[32px] lg:text-[48px] fontBarlow font-bold tracking-[-0.02em] leading-[110%]">
                 Data model you can read
               </h2>
-              <div className="text-[20px] leading-[140%] mb-[50px] textNormal">
+              <p className="text-[20px] leading-[140%] mb-[50px] textNormal">
                 The Prisma schema is intuitive and lets you declare your
                 database tables in a human-readable way — making your data
                 modeling experience a delight. You define your models by hand or
                 introspect them from an existing database.
-              </div>
+              </p>
               <a
                 href="./docs/concepts/components/prisma-schema"
-                className="inline-block	leading-[1] rounded-[6px] pointer fontInter font-bold text-[18px] bg-[#16a394] border border-[#16a394] text-white py-[16px] px-[24px] lg:w-fit w-full"
+                className="inline-block	leading-[1] rounded-[6px] pointer fontInter font-bold text-[18px] bg-[#16a394] border border-[#16a394] text-white py-[16px] px-[24px] lg:w-fit w-full hover:bg-[#187367] hover:border-[#187367]"
               >
                 Learn more about Prisma Schema
               </a>
