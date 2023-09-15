@@ -1,3 +1,4 @@
+import { Container } from 'components/container/Container'
 import schemaImage from '../../../assets/images/second-section-schema.svg'
 import './SecondSection.css'
 
@@ -14,7 +15,7 @@ export function SecondSection() {
   return (
     <>
       <div className="second-section">
-        <div className="max-w-[1248px] w-full px-[1.5rem] m-auto">
+        <Container>
           <div className="flex justify-between items-center mb-[88px] lg:gap-[0] gap-[32px] lg:flex-row flex-col">
             <div className="max-w-[621px] w-full lg:pr-[51px]">
               <div className="fontBarlow text-[20px] uppercase mb-[8px] text-[#a0aec0] leading-[100%] tracking-[0.1em] font-bold">
@@ -23,15 +24,15 @@ export function SecondSection() {
               <h2 className="text-[#2d3748] mb-[18px] text-[32px] lg:text-[48px] fontBarlow font-bold tracking-[-0.02em] leading-[110%]">
                 Data model you can read
               </h2>
-              <div className="text-[20px] leading-[140%] mb-[50px] textNormal">
+              <p className="text-[20px] leading-[140%] mb-[50px] textNormal">
                 The Prisma schema is intuitive and lets you declare your
                 database tables in a human-readable way — making your data
                 modeling experience a delight. You define your models by hand or
                 introspect them from an existing database.
-              </div>
+              </p>
               <a
                 href="./docs/concepts/components/prisma-schema"
-                className="inline-block	leading-[1] rounded-[6px] pointer fontInter font-bold text-[18px] bg-[#16a394] border border-[#16a394] text-white py-[16px] px-[24px] lg:w-fit w-full"
+                className="inline-block	leading-[1] rounded-[6px] pointer fontInter font-bold text-[18px] bg-[#16a394] border border-[#16a394] text-white py-[16px] px-[24px] lg:w-fit w-full hover:bg-[#187367] hover:border-[#187367]"
               >
                 Learn more about Prisma Schema
               </a>
@@ -41,7 +42,7 @@ export function SecondSection() {
               <a href="./docs/concepts/components/prisma-schema"></a>
             </div>
           </div>
-        </div>
+        </Container>
         <div className="max-w-[1248px] w-full px-[1.5rem] m-auto fontInter">
           <div className="badge-section flex justify-between gap-[48px] mb-[100px] md:flex-row flex-col">
             <div className="max-w-[275px] pointer w-full relative group">

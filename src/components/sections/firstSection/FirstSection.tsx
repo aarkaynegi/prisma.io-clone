@@ -1,3 +1,4 @@
+import { Container } from 'components/container/Container'
 import './FirstSection.css'
 import { Testimonials } from './Testimonials'
 
@@ -5,7 +6,7 @@ export function FirstSection() {
   return (
     <>
       <div className="first-section pt-[64px] pb-[116px]">
-        <div className="px-[1.5rem] m-auto max-w-[1248px]">
+        <Container>
           <div className="flex text-[#ffffff] items-center gap-[30px] md:gap-0 md:justify-around flex-col md:flex-row ">
             <div className="flex items-center relative">
               <a
@@ -32,7 +33,7 @@ export function FirstSection() {
               </span>
             </div>
           </div>
-        </div>
+        </Container>
         <div className="">
           <Testimonials />
         </div>
