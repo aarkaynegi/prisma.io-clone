@@ -9,11 +9,11 @@ export function ThirdSection() {
     <>
       <div className="third-section">
         <Container>
-          <div className="mb-[100px] mt-[82px] w-full items-center justify-between gap-[50px] inline-flex">
+          <div className="mb-[100px] mt-[82px] w-full items-center justify-between gap-[50px] inline-flex lg:gap-[0] gap-[32px] lg:flex-row flex-col">
             <div className="max-w-[565px] w-full">
               <img src={thirdSectionSchema} alt="typesafe-database-client" />
             </div>
-            <div className="max-w-[600px] w-full">
+            <div className="lg:max-w-[600px] w-full">
               <div className="fontBarlow text-[18px] uppercase mb-[8px] text-[#718096] leading-[100%] tracking-[0.1em] font-bold">
                 Prisma Client
               </div>
@@ -43,8 +43,8 @@ export function ThirdSection() {
               </div>
             </div>
           </div>
-          <div className="mb-[42px] inline-flex gap-[12px] fontInter">
-            <div className="w-1/2 flex items-start gap-[24px]">
+          <div className="mb-[42px] inline-flex gap-[48px] fontInter lg:gap-[0] lg:gap-[32px] lg:flex-row flex-col">
+            <div className="lg:w-1/2 flex items-start gap-[24px] lg:flex-row flex-col">
               <img src={vscode} alt="vscode" className="w-[74px] h-[74px]" />
               <div className="">
                 <h6 className="text-white font-bold mb-[8px] text-[20px]">
@@ -63,7 +63,7 @@ export function ThirdSection() {
                 </a>
               </div>
             </div>
-            <div className="w-1/2 flex items-start gap-[24px]">
+            <div className="lg:w-1/2 flex items-start gap-[24px] lg:flex-row flex-col">
               <img src={ts} alt="vscode" className="w-[74px] h-[74px]" />
               <div className="">
                 <h6 className="text-white font-bold mb-[8px] text-[20px]">
@@ -83,7 +83,7 @@ export function ThirdSection() {
               </div>
             </div>
           </div>
-          <div className="block pt-[33px] mt-[53px] mb-[-53px] z-10 relative bg-white customShadow rounded-[10px]">
+          <div className="hidden pt-[33px] mt-[53px] mb-[-53px] z-10 relative bg-white customShadow rounded-[10px] lg:block">
             <div className="inline-grid grid-rows-[repeat(4,auto)] grid-cols-[repeat(4,_1fr)] px-[60px] gap-[12px] w-full mb-[35px]">
               <div className="text-[18px] text-[#04c8bb] flex font-[600] items-center">
                 <i className="fa-solid fa-check text-center text-[25px] mr-[14px] w-[24px] h-[24px]"></i>
