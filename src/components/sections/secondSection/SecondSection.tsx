@@ -17,7 +17,7 @@ export function SecondSection() {
       <div className="second-section">
         <Container>
           <div className="flex justify-between items-center mb-[88px] lg:gap-[0] gap-[32px] lg:flex-row flex-col">
-            <div className="max-w-[621px] w-full lg:pr-[51px]">
+            <div className="lg:max-w-[621px] w-full lg:pr-[51px]">
               <div className="fontBarlow text-[20px] uppercase mb-[8px] text-[#a0aec0] leading-[100%] tracking-[0.1em] font-bold">
                 Prisma schema
               </div>
@@ -43,7 +43,7 @@ export function SecondSection() {
             </div>
           </div>
         </Container>
-        <div className="max-w-[1248px] w-full px-[1.5rem] m-auto fontInter">
+        <Container>
           <div className="badge-section flex justify-between gap-[48px] mb-[100px] md:flex-row flex-col">
             <div className="max-w-[275px] pointer w-full relative group">
               <a href="./stack">
@@ -75,7 +75,7 @@ export function SecondSection() {
               </a>
             </div>
           </div>
-        </div>
+        </Container>
       </div>
     </>
   )
