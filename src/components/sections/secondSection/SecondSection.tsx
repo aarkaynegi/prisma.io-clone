@@ -1,5 +1,5 @@
 import { Container } from 'components/container/Container'
-import schemaImage from '../../../assets/images/second-section-schema.svg'
+import schemaImage from '../../../assets/images/secondSection/second-section-schema.svg'
 import './SecondSection.css'
 
 export function SecondSection() {

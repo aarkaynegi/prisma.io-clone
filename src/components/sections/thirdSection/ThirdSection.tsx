@@ -1,7 +1,7 @@
 import './ThirdSection.css'
-import thirdSectionSchema from '../../../assets/images/typesafe-database-client.svg'
-import vscode from '../../../assets/images/vscode.svg'
-import ts from '../../../assets/images/ts-framed.svg'
+import thirdSectionSchema from '../../../assets/images/thirdSection/typesafe-database-client.svg'
+import vscode from '../../../assets/images/thirdSection/vscode.svg'
+import ts from '../../../assets/images/thirdSection/ts-framed.svg'
 import { Container } from 'components/container/Container'
 
 export function ThirdSection() {
