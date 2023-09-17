@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap');
 
 body {
   margin: 0;
@@ -122,14 +122,14 @@ a {
 
   .hero-section>div {
     flex-wrap: wrap;
+  }
 
-    & .hero-body {
-      margin-right: 0 !important;
-    }
+  .hero-section>div .hero-body {
+    margin-right: 0 !important;
+  }
 
-    & .hero-button {
-      flex-direction: column;
-    }
+  .hero-section>div .hero-button {
+    flex-direction: column;
   }
 
   .hero-button {
@@ -140,10 +140,10 @@ a {
 
   .yt-video {
     width: 100%;
+  }
 
-    & iframe {
-      width: 100%;
-    }
+  .yt-video iframe {
+    width: 100%;
   }
 
   .nav,

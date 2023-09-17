@@ -34,7 +34,7 @@ export function ThirdSection() {
                   Explore Prisma Client
                 </a>
                 <a
-                  href=""
+                  href="https://playground.prisma.io/"
                   className="group w-auto rounded-[6px] fontBarlow flex items-end text-[1.25rem] justify-center max-w-[100%] text-left m-[4px] z-[1000] pointer leading-1 border border-[#16a394] bg-transparent hover:text-[#187367] hover:border-[#187367] text-[#16a394] px-[24px] py-[16px] ease-in-out	"
                 >
                   Playground
@@ -55,7 +55,7 @@ export function ThirdSection() {
                   developers in VS Code stay confident and productive.
                 </p>
                 <a
-                  href=""
+                  href="https://marketplace.visualstudio.com/items?itemName=Prisma.prisma"
                   className="inline-flex justify-center max-w-[100%] z-[1000] m-[4px] mr-[14px] items-center rounded-[6px] pointer relative fontInter font-bold text-[18px] bg-transparent text-[#16a394] pr-[10px] rounded-none border-b-[3px] border-[#16a394] hover:text-[#187367] hover:border-[#187367] group"
                 >
                   Download Prisma VS Code Extension
@@ -74,7 +74,7 @@ export function ThirdSection() {
                   the ORMs in the TypeScript ecosystem.
                 </p>
                 <a
-                  href=""
+                  href="./docs/concepts/more/comparisons/prisma-and-typeorm"
                   className="inline-flex justify-center max-w-[100%] z-[1000] m-[4px] mr-[14px] items-center rounded-[6px] pointer relative fontInter font-bold text-[18px] bg-transparent text-[#16a394] pr-[5px] rounded-none	border-b-[3px] border-[#16a394] hover:text-[#187367] hover:border-[#187367] group"
                 >
                   Read comparison with TypeORM

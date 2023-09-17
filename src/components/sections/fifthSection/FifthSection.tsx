@@ -37,14 +37,12 @@ export function FifthSection() {
             <div className="mx-auto text-center flex flex-col justify-center gap-[16px] min-[815px]:flex-row">
               <a
                 href="https://github.com/prisma/prisma-examples"
-                target="_blank"
                 className="inline-flex justify-center max-w-full z-[1000] m-[4px] items-center rounded-[6px] pointer relative fontInter font-bold text-[18px] border border-[#5a67d8] bg-[#5a67d8] text-white py-[16px] px-[24px] leading-[1.5] lg:w-auto w-full text-left hover:bg-[#4c51bf] hover:border-[#4c51bf]"
               >
                 Browse examples on GitHub
               </a>
               <a
                 href="https://github.com/prisma/prisma-examples"
-                target="_blank"
                 className="inline-flex justify-center max-w-full z-[1000] m-[4px] items-center rounded-[6px] pointer relative fontInter font-bold text-[18px] border border-[#5a67d8] bg-white text-[#5a67d8] py-[16px] px-[24px] leading-[1.5] lg:w-auto w-full text-left hover:text-[#4c51bf] hover:border-[#4c51bf]"
               >
                 More about Prisma in your stack

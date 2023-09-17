@@ -39,7 +39,7 @@ export function SecondSection() {
             </div>
             <div className="max-w-[570px] w-full ">
               <img src={schemaImage} width="570" height="522" alt="" />
-              <a href="./docs/concepts/components/prisma-schema"></a>
+              <a href="./docs/concepts/components/prisma-schema">{'\u00A0'}</a>
             </div>
           </div>
         </Container>
