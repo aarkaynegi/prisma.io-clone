@@ -8,7 +8,7 @@ export function FifthSection() {
     <>
       <div className="fifth-section fontInter lg:pt-[168px] pt-[110px] lg:pb-[112px] pb-[85px] bg-white text-center">
         <Container>
-          <h2 className="mb-[22px] text-[#1a202c] ld:text-[48px] text-[32px] fontBarlow font-bold tracking-[-0.02em] leading-[110%]">
+          <h2 className="mb-[22px] text-[#1a202c] lg:text-[48px] text-[32px] fontBarlow font-bold tracking-[-0.02em] leading-[110%]">
             How does Prisma fit into your stack?
           </h2>
           <p className="text-[#4a5568] mb-[64px]">
