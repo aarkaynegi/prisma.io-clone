@@ -33,7 +33,7 @@ export function FourthSection() {
                   Learn more
                 </a>
                 <a
-                  href=""
+                  href="https://playground.prisma.io"
                   className="group w-auto rounded-[6px] fontBarlow flex items-end text-[1.25rem] justify-center max-w-[100%] text-left m-[4px] z-[1000] pointer leading-1 border border-[--pri] bg-transparent hover:text-[#4c51bf] hover:border-[#4c51bf] text-[--pri] px-[24px] py-[16px] ease-in-out	"
                 >
                   Playground
