@@ -4,6 +4,7 @@ import { FirstSection } from 'components/sections/firstSection/FirstSection'
 import { SecondSection } from 'components/sections/secondSection/SecondSection'
 import { ThirdSection } from 'components/sections/thirdSection/ThirdSection'
 import { FourthSection } from 'components/sections/fourthSection/FourthSection'
+import { FifthSection } from 'components/sections/fifthSection/FifthSection'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <SecondSection />
       <ThirdSection />
       <FourthSection />
+      <FifthSection />
     </div>
   )
 }
