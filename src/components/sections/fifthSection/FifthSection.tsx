@@ -1,12 +1,47 @@
+import React, { useState, useEffect, useRef } from 'react'
 import { Container } from 'components/container/Container'
 import { StackDesktop } from 'components/svgs/StackDesktop'
 import { StackHhp } from 'components/svgs/StackHhp'
 import { FavouriteFrameWorks } from './FavouriteFrameWorks'
 
-export function FifthSection() {
+interface FifthSectionProps {}
+
+export const FifthSection: React.FC<FifthSectionProps> = () => {
+  const [windowWidth, setWindowWidth] = useState<number>(window.innerWidth)
+  const [animationActive, setAnimationActive] = useState<boolean>(false)
+  const sectionRef = useRef<HTMLDivElement | null>(null)
+
+  const handleResize = () => {
+    setWindowWidth(window.innerWidth)
+  }
+
+  const handleScroll = () => {
+    const sectionTop = sectionRef.current?.getBoundingClientRect().top || 0
+    const windowHeight = window.innerHeight
+
+    if (sectionTop < windowHeight / 2 && windowWidth > 768) {
+      setAnimationActive(true)
+    } else {
+      setAnimationActive(false)
+    }
+  }
+
+  useEffect(() => {
+    window.addEventListener('resize', handleResize)
+    window.addEventListener('scroll', handleScroll)
+
+    return () => {
+      window.removeEventListener('resize', handleResize)
+      window.removeEventListener('scroll', handleScroll)
+    }
+  })
+
   return (
     <>
-      <div className="fifth-section fontInter lg:pt-[168px] pt-[110px] lg:pb-[112px] pb-[85px] bg-white text-center">
+      <div
+        ref={sectionRef}
+        className="fifth-section fontInter lg:pt-[168px] pt-[110px] lg:pb-[112px] pb-[85px] bg-white text-center"
+      >
         <Container>
           <h2 className="mb-[22px] text-[#1a202c] lg:text-[48px] text-[32px] fontBarlow font-bold tracking-[-0.02em] leading-[110%]">
             How does Prisma fit into your stack?
@@ -15,10 +50,18 @@ export function FifthSection() {
             Prisma is a server-side library that helps developers read and write
             data to the database in an intuitive, efficient and safe way.
           </p>
-          <div className="mb-[100px] mx-auto inline-block w-full">
+          <div className="min-[940px]:mb-[100px] mx-auto inline-block w-full">
             <div>
-              <StackDesktop clasName="md:block w-full hidden" />
-              <StackHhp className="md:hidden w-full block" />
+              <StackDesktop
+                className={`md:block w-full hidden ${
+                  animationActive ? 'active' : ''
+                }`}
+              />
+              <StackHhp
+                className={`md:hidden w-full block ${
+                  !animationActive ? 'active' : ''
+                }`}
+              />
             </div>
           </div>
           <div className="customShadow text-start p-[48px] rounded-[10px] bg-white">

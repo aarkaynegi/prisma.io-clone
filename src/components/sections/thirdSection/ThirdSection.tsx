@@ -26,7 +26,7 @@ export function ThirdSection() {
                 developers brand new to databases. The auto-completion helps you
                 figure out your query without the need for documentation.
               </p>
-              <div className="flex gap-x-[20px] fontInter text-[18px] tracking-0 leading-[140%]">
+              <div className="flex md:flex-row flex-col gap-x-[20px] fontInter text-[18px] tracking-0 leading-[140%]">
                 <a
                   href="./client"
                   className="w-auto rounded-[6px] fontBarlow flex items-end text-[1.25rem] justify-center max-w-[100%] text-left m-[4px] z-[1000] pointer leading-1 border border-[#16a394] bg-[#16a394] hover:bg-[#187367] hover:border-[#187367] text-white px-[24px] py-[16px]"
