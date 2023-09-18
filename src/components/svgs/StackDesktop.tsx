@@ -4,7 +4,7 @@ export function StackDesktop(props: any) {
   return (
     <>
       <svg
-        className={`${props.className} mx-auto`}
+        className={`${props.className} SVGstackDesktop mx-auto`}
         width="854"
         height="199"
         viewBox="0 0 854 199"

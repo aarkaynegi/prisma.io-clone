@@ -1,0 +1,157 @@
+svg {
+  width: 100%;
+}
+
+.SVGwithProxy .svg-elem-1 {
+  stroke-dashoffset: 1232.98px;
+  stroke-dasharray: 1232.98px;
+  fill: transparent;
+  transition: stroke-dashoffset 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) 0s, fill 0.4s cubic-bezier(0.47, 0, 0.745, 0.715) 0.3s;
+}
+
+
+.SVGwithProxy.active .svg-elem-1 {
+  stroke-dashoffset: 0;
+  fill: var(--svgFill);
+  --svgFill: #38a169;
+}
+
+.SVGwithProxy.active .svg-elem-2 {
+  stroke-dashoffset: 0;
+}
+.SVGwithProxy .svg-elem-2 {
+  stroke-dashoffset: 593.149px;
+  stroke-dasharray: 593.149px;
+  transition: stroke-dashoffset 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) 0.05s, fill 0.4s cubic-bezier(0.47, 0, 0.745, 0.715) 0.33s;
+}
+
+.SVGwithProxy.active .svg-elem-3 {
+  stroke-dashoffset: 0;
+}
+
+.SVGwithProxy .svg-elem-3 {
+  stroke-dashoffset: 593.149px;
+  stroke-dasharray: 593.149px;
+  transition: stroke-dashoffset 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) 0.1s, fill 0.4s cubic-bezier(0.47, 0, 0.745, 0.715) 0.36s;
+}
+
+
+.SVGwithProxy.active .svg-elem-4 {
+  stroke-dashoffset: 0;
+}
+
+.SVGwithProxy .svg-elem-4 {
+  stroke-dashoffset: 593.149px;
+  stroke-dasharray: 593.149px;
+  transition: stroke-dashoffset 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) 0.15s, fill 0.4s cubic-bezier(0.47, 0, 0.745, 0.715) 0.39s;
+}
+
+.SVGwithProxy.active .svg-elem-5 {
+  stroke-dashoffset: 0;
+}
+
+.SVGwithProxy .svg-elem-5 {
+  stroke-dashoffset: 593.148px;
+  stroke-dasharray: 593.148px;
+  transition: stroke-dashoffset 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) 0.2s, fill 0.4s cubic-bezier(0.47, 0, 0.745, 0.715) 0.42s;
+}
+
+.SVGwithProxy.active .svg-elem-6 {
+  stroke-dashoffset: 0;
+}
+
+.SVGwithProxy .svg-elem-6 {
+  stroke-dashoffset: 593.149px;
+  stroke-dasharray: 593.149px;
+  transition: stroke-dashoffset 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) 0.25s, fill 0.4s cubic-bezier(0.47, 0, 0.745, 0.715) 0.45s;
+}
+
+.SVGwithProxy.active .svg-elem-7 {
+  stroke-dashoffset: 0;
+}
+
+.SVGwithProxy .svg-elem-7 {
+  stroke-dashoffset: 593.148px;
+  stroke-dasharray: 593.148px;
+  transition: stroke-dashoffset 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) 0.3s, fill 0.4s cubic-bezier(0.47, 0, 0.745, 0.715) 0.48s;
+}
+
+.SVGwithProxy.active .svg-elem-8 {
+  stroke-dashoffset: 0;
+}
+
+.SVGwithProxy .svg-elem-8 {
+  stroke-dashoffset: 593.149px;
+  stroke-dasharray: 593.149px;
+  transition: stroke-dashoffset 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) 0.35s, fill 0.4s cubic-bezier(0.47, 0, 0.745, 0.715) 0.51s;
+}
+
+.SVGwithProxy.active .svg-elem-9 {
+  stroke-dashoffset: 0;
+}
+
+.SVGwithProxy .svg-elem-9 {
+  stroke-dashoffset: 593.148px;
+  stroke-dasharray: 593.148px;
+  transition: stroke-dashoffset 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) 0.4s, fill 0.4s cubic-bezier(0.47, 0, 0.745, 0.715) 0.54s;
+}
+
+.SVGwithProxy.active .svg-elem-10 {
+  stroke-dashoffset: 0;
+}
+
+.SVGwithProxy .svg-elem-10 {
+  stroke-dashoffset: 593.148px;
+  stroke-dasharray: 593.148px;
+  transition: stroke-dashoffset 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) 0.45s, fill 0.4s cubic-bezier(0.47, 0, 0.745, 0.715) 0.57s;
+}
+
+.SVGwithProxy.active .svg-elem-11 {
+  stroke-dashoffset: 0;
+}
+
+.SVGwithProxy .svg-elem-11 {
+  stroke-dashoffset: 593.149px;
+  stroke-dasharray: 593.149px;
+  transition: stroke-dashoffset 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) 0.5s, fill 0.4s cubic-bezier(0.47, 0, 0.745, 0.715) 0.6s;
+}
+
+.SVGwithProxy.active .svg-elem-12 {
+  stroke-dashoffset: 0;
+}
+
+.SVGwithProxy .svg-elem-12 {
+  stroke-dashoffset: 593.148px;
+  stroke-dasharray: 593.148px;
+  transition: stroke-dashoffset 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) 0.55s, fill 0.4s cubic-bezier(0.47, 0, 0.745, 0.715) 0.63s;
+}
+
+.SVGwithProxy.active .svg-elem-13 {
+  stroke-dashoffset: 0;
+}
+
+.SVGwithProxy .svg-elem-13 {
+  stroke-dashoffset: 593.149px;
+  stroke-dasharray: 593.149px;
+  transition: stroke-dashoffset 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) 0.6s, fill 0.4s cubic-bezier(0.47, 0, 0.745, 0.715) 0.66s;
+}
+
+.SVGwithProxy.active .svg-elem-14 {
+  stroke-dashoffset: 0;
+}
+
+.SVGwithProxy .svg-elem-14 {
+  stroke-dashoffset: 593.149px;
+  stroke-dasharray: 593.149px;
+  transition: stroke-dashoffset 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) 0.65s, fill 0.4s cubic-bezier(0.47, 0, 0.745, 0.715) 0.69s;
+}
+
+.SVGwithProxy.active .svg-elem-15 {
+  stroke-dashoffset: 0;
+}
+
+.SVGwithProxy .svg-elem-15 {
+  stroke-dashoffset: 593.149px;
+  stroke-dasharray: 593.149px;
+  transition: stroke-dashoffset 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) 0.7s, fill 0.4s cubic-bezier(0.47, 0, 0.745, 0.715) 0.72s;
+}

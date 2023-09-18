@@ -1,11 +1,12 @@
-export function FooterSection(props: any) {
-  console.log(props.item)
+import { IMenu } from './footer-data'
+
+export function FooterSection(props: IMenu) {
   return (
     <>
       <h4 className="uppercase text-[1rem] text-[#4a5568] tracking-[0.08em] mt-0 mb-[1rem]">
-        {props.item.heading}
+        {props.heading}
       </h4>
-      {props.item.items.map((item: any, index: number) => (
+      {props.items.map((item: any, index: number) => (
         <a href={item.link} key={index} className="">
           {item.tag ? (
             <div className="flex items-center">

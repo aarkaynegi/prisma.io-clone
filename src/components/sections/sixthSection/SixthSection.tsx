@@ -1,8 +1,8 @@
-import React, { useState } from 'react'
 import { Container } from 'components/container/Container'
-import './SixthSection.css'
+import { useState } from 'react'
 import { SixthSectionSVG } from '../../../assets/images/sixthSection/SixthSectionSVG'
 import { SixthSectionSVG2 } from '../../../assets/images/sixthSection/SixthSectionSVG2'
+import './SixthSection.css'
 
 export function SixthSection() {
   const [showSvg, setShowSvg] = useState(true)
@@ -43,21 +43,21 @@ export function SixthSection() {
                     Without the Proxy
                   </button>
                 </div>
-                <div className="text-center pointer">
+                <div className="text-center cursor-pointer">
                   {showSvg && (
-                    <div className="">
-                      <SixthSectionSVG />
+                    <div className="svgProxy">
+                      <SixthSectionSVG className="active"/>
                     </div>
                   )}
                   {showSvg2 && (
                     <div className="=">
-                      <SixthSectionSVG2 />
+                      <SixthSectionSVG2  className="active"/>
                     </div>
                   )}
                 </div>
               </div>
-              <div className="">
-                <h3>Serverless functions made easy</h3>
+              <div className="sixthBodyOneTwo">
+                <h3 className='fontBarlow'>Serverless functions made easy</h3>
                 <p>
                   When used with the ORM, the Data Proxy manages a connection
                   pool to avoid running out of connections during traffic

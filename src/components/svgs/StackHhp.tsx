@@ -4,7 +4,7 @@ export function StackHhp(props: any) {
   return (
     <>
       <svg
-        className={`${props.className} mx-auto`}
+        className={`${props.className} SVGstackHhp mx-auto`}
         width="381"
         height="100%"
         viewBox="0 0 381 834"
