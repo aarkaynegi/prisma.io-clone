@@ -6,6 +6,7 @@ import { ThirdSection } from 'components/sections/thirdSection/ThirdSection'
 import { FourthSection } from 'components/sections/fourthSection/FourthSection'
 import { FifthSection } from 'components/sections/fifthSection/FifthSection'
 import { Footer } from 'components/sections/footer/Footer'
+import { SixthSection } from 'components/sections/sixthSection/SixthSection'
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
       <ThirdSection />
       <FourthSection />
       <FifthSection />
-
+      <SixthSection />
       <Footer />
     </div>
   )

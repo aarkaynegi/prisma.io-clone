@@ -1,0 +1,179 @@
+.sixth-section {
+    background-color: #f7fafc;
+    padding: 48px 0px 58px;
+}
+
+.sixthHeader h2 {
+    color: #2d3748;
+    text-align: center;
+    font-size: 32px;
+    font-family: Barlow, sans-serif;
+    font-weight: 700;
+    letter-spacing: -.02em;
+    line-height: 110%;
+}
+
+.sixthHeader p {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 140%;
+    color: #4a5568;
+    margin-bottom: 57px;
+    text-align: center;
+}
+
+.sixth-btns {
+    background-color: #e2e8f0;
+    border: 6px solid #e2e8f0;
+    border-radius: 999px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    position: relative;
+    max-width: 582px;
+    margin: 0px auto;
+    width: 100%;
+}
+
+.sixth-btns::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    left: 0px;
+    right: 100%;
+    transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 0.8) 0s;
+    background: #16a394;
+    border-radius: 99px;
+    z-index: 1;
+}
+
+.sixth-btns.with::before {
+    left: 0px;
+    right: 100%;
+}
+
+.sixth-btns.without::before {
+    right: 0px;
+    left: 50%;
+    background: #e53e3e;
+}
+
+.sixthBodyOne {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    margin-bottom: 48px;
+}
+
+.sixthBodyOneOn,
+.sixthBodyOneTwo {
+    flex: 1 1 0%;
+}
+
+.sixthBodyOneTwo h3 {
+    margin-bottom: 18px;
+    font-weight: 700;
+    color: #2d3748;
+    letter-spacing: -.02em;
+    line-height: 110%;
+}
+.sixthBodyOneTwo p {
+    font-weight: 400;
+    color: #4a5568;
+}
+
+.withProxy,
+.withoutProxy {
+    font-size: 14px;
+    white-space: nowrap;
+    font-weight: 700;
+    background: none;
+    line-height: 28px;
+    position: relative;
+    color: #718096;
+    z-index: 2;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 8px 14px;
+}
+
+.sixth-btns.with .withProxy,
+.sixth-btns.without .withoutProxy {
+    color: white;
+}
+
+
+
+@media (min-width:940px) {
+    .sixth-section {
+        padding: 112px 0px 110px;
+    }
+
+    .sixthHeader h2 {
+        margin-bottom: 11px;
+        font-size: 48px;
+    }
+
+    .sixthHeader p {
+        font-size: 24px;
+        margin-bottom: 72px;
+    }
+
+    .sixth-btns {
+        max-width: unset;
+        width: auto;
+        margin: 0px;
+    }
+
+    .sixthBodyOne {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 57px;
+        margin-bottom: 70px;
+    }
+
+    .sixthBodyOneTwo {
+        margin-top: 4px;
+    }
+
+    .sixthBodyOneTwo h3 {
+        margin-top: -2px;
+        font-weight: 700;
+        margin-bottom: 16px;
+        font-size: 36px;
+    }
+
+    .sixthBodyOneTwo p {
+        font-weight: 400;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    .withProxy,
+    .withoutProxy {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+
+    .withProxy,
+    .withoutProxy {
+        padding: 10px 24px;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 400px) {
+
+    .withProxy,
+    .withoutProxy {
+        font-size: 16px;
+    }
+}
