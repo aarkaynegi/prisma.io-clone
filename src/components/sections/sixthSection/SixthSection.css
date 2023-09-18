@@ -1,0 +1,103 @@
+.sixth-section {
+    background-color: #f7fafc;
+    padding: 48px 0px 58px;
+}
+
+.sixthHeader h2 {
+    color: #2d3748;
+    text-align: center;
+    font-size: 32px;
+    font-family: Barlow, sans-serif;
+    font-weight: 700;
+    letter-spacing: -.02em;
+    line-height: 110%;
+}
+
+.sixthHeader p {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 140%;
+    color: #4a5568;
+    margin-bottom: 57px;
+    text-align: center;
+}
+
+.sixth-btns {
+    background-color: rgb(226, 232, 240);
+    border: 6px solid rgb(226, 232, 240);
+    border-radius: 999px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    position: relative;
+    max-width: 582px;
+    margin: 0px auto;
+    width: 100%;
+}
+
+.sixth-btns::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    left: 0px;
+    right: 100%;
+    transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 0.8) 0s;
+    background: rgb(22, 163, 148);
+    border-radius: 99px;
+    z-index: 1;
+}
+
+.sixth-btns.with::before {
+    left: 0px;
+    right: 100%;
+}
+
+.sixth-btns.without::before {
+    right: 0px;
+    left: 50%;
+    background: #e53e3e;
+}
+
+.sixthBodyOne {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    margin-bottom: 48px;
+}
+
+.sixthBodyOneOn,
+.sixthBodyOneTwo {
+    flex: 1 1 0%;
+}
+
+
+@media (min-width:940px) {
+    .sixth-section {
+        padding: 112px 0px 110px;
+    }
+
+    .sixthHeader h2 {
+        margin-bottom: 11px;
+        font-size: 48px;
+    }
+
+    .sixthHeader p {
+        font-size: 24px;
+        margin-bottom: 72px;
+    }
+
+    .sixth-btns {
+        max-width: unset;
+        width: auto;
+        margin: 0px;
+    }
+
+    .sixthBodyOne {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 57px;
+        margin-bottom: 70px;
+    }
+}
