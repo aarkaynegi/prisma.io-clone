@@ -95,8 +95,8 @@ export const Testimonials: React.FC = () => {
 
   return (
     <Slider {...sliderSetting} className="mt-[30px]">
-      {testimonials.map((testimonial) => (
-        <div className="p-[30px]">
+      {testimonials.map((testimonial, index) => (
+        <div className="p-[30px]" key={index}>
           <div className="py-[30px] pl-[53px] pr-[46px] max-w-[966px] rounded-[10px] bg-white relative flex flex-col testimonialShadow">
             <span className="pri icon absolute top-[20px] left-[53px] text-[74px] fontInter">
               “

@@ -11,7 +11,7 @@ export function StackDesktop(props: any) {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <g clip-path="url(#clip0_1974_7163)">
+        <g clipPath="url(#clip0_1974_7163)">
           <path
             d="M59.9521 14.888C59.9521 12.9223 61.1451 11.3289 62.6166 11.3289H208.165C209.636 11.3289 210.829 12.9223 210.829 14.888V131.139C210.829 133.105 209.636 134.698 208.165 134.698H62.6166C61.1451 134.698 59.9521 133.105 59.9521 131.139V14.888Z"
             fill="#2D3748"
@@ -56,8 +56,8 @@ export function StackDesktop(props: any) {
           height="120.035"
           rx="11.67"
           stroke="#A0AEC0"
-          stroke-width="3.3343"
-          stroke-linejoin="round"
+          strokeWidth="3.3343"
+          strokeLinejoin="round"
           className="svg-elem-7"
         ></rect>
         <g filter="url(#filter1_dd_1974_7163)">
@@ -78,8 +78,8 @@ export function StackDesktop(props: any) {
             rx="7.65891"
             transform="rotate(-22.7072 1.63593 73.6839)"
             stroke="url(#paint1_linear_1974_7163)"
-            stroke-opacity="0.75"
-            stroke-width="2.50045"
+            strokeOpacity="0.75"
+            strokeWidth="2.50045"
             className="svg-elem-9"
           ></rect>
           <rect
@@ -99,8 +99,8 @@ export function StackDesktop(props: any) {
             rx="7.65891"
             transform="rotate(-22.7072 1.63593 73.6839)"
             stroke="url(#paint3_linear_1974_7163)"
-            stroke-opacity="0.75"
-            stroke-width="2.50045"
+            strokeOpacity="0.75"
+            strokeWidth="2.50045"
             className="svg-elem-11"
           ></rect>
           <path
@@ -116,7 +116,7 @@ export function StackDesktop(props: any) {
             rx="1.00902"
             transform="rotate(-22.7072 27.3721 73.4368)"
             fill="url(#paint4_linear_1974_7163)"
-            fill-opacity="0.46"
+            fillOpacity="0.46"
             className="svg-elem-13"
           ></rect>
         </g>
@@ -127,23 +127,23 @@ export function StackDesktop(props: any) {
           y2="-1.5923"
           transform="matrix(1 -8.74228e-08 -8.74228e-08 -1 227.352 116.377)"
           stroke="#A3BFFA"
-          stroke-width="3.1846"
-          stroke-linecap="round"
+          strokeWidth="3.1846"
+          strokeLinecap="round"
           className="svg-elem-14"
         ></line>
         <path
           d="M353.311 117.969H408.117"
           stroke="#A3BFFA"
-          stroke-width="3.1846"
-          stroke-linecap="round"
+          strokeWidth="3.1846"
+          strokeLinecap="round"
           className="svg-elem-15"
         ></path>
         <path
           d="M398.1 107.951L408.117 117.969L398.1 127.987"
           stroke="#A3BFFA"
-          stroke-width="3.1846"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="3.1846"
+          strokeLinecap="round"
+          strokeLinejoin="round"
           className="svg-elem-16"
         ></path>
         <line
@@ -153,15 +153,15 @@ export function StackDesktop(props: any) {
           y2="-1.5923"
           transform="matrix(1 -8.74228e-08 -8.74228e-08 -1 542.725 116.377)"
           stroke="#A3BFFA"
-          stroke-width="3.1846"
-          stroke-linecap="round"
+          strokeWidth="3.1846"
+          strokeLinecap="round"
           className="svg-elem-17"
         ></line>
         <path
           d="M668.684 117.969H723.092"
           stroke="#A3BFFA"
-          stroke-width="3.1846"
-          stroke-linecap="round"
+          strokeWidth="3.1846"
+          strokeLinecap="round"
           className="svg-elem-18"
         ></path>
         <circle
@@ -170,7 +170,7 @@ export function StackDesktop(props: any) {
           r="26.4953"
           transform="rotate(-45 631.208 115.606)"
           stroke="#183C56"
-          stroke-width="4.77691"
+          strokeWidth="4.77691"
           className="svg-elem-19"
         ></circle>
         <line
@@ -179,23 +179,23 @@ export function StackDesktop(props: any) {
           x2="678.026"
           y2="50.3931"
           stroke="#667EEA"
-          stroke-width="3.1846"
-          stroke-linecap="round"
+          strokeWidth="3.1846"
+          strokeLinecap="round"
           className="svg-elem-20"
         ></line>
         <path
           d="M588.951 50.3945L542.326 50.3945"
           stroke="#667EEA"
-          stroke-width="3.1846"
-          stroke-linecap="round"
+          strokeWidth="3.1846"
+          strokeLinecap="round"
           className="svg-elem-21"
         ></path>
         <path
           d="M550.868 40.377L540.851 50.3948L550.868 60.4124"
           stroke="#667EEA"
-          stroke-width="3.1846"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="3.1846"
+          strokeLinecap="round"
+          strokeLinejoin="round"
           className="svg-elem-22"
         ></path>
         <line
@@ -204,31 +204,31 @@ export function StackDesktop(props: any) {
           x2="357.506"
           y2="50.3931"
           stroke="#667EEA"
-          stroke-width="3.1846"
-          stroke-linecap="round"
+          strokeWidth="3.1846"
+          strokeLinecap="round"
           className="svg-elem-23"
         ></line>
         <path
           d="M282.158 50.3945L227.352 50.3945"
           stroke="#667EEA"
-          stroke-width="3.1846"
-          stroke-linecap="round"
+          strokeWidth="3.1846"
+          strokeLinecap="round"
           className="svg-elem-24"
         ></path>
         <path
           d="M236.541 40.3767L226.523 50.3945L236.541 60.4121"
           stroke="#667EEA"
-          stroke-width="3.1846"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="3.1846"
+          strokeLinecap="round"
+          strokeLinejoin="round"
           className="svg-elem-25"
         ></path>
         <path
           d="M714.274 107.951L724.292 117.969L714.274 127.987"
           stroke="#A3BFFA"
-          stroke-width="3.1846"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="3.1846"
+          strokeLinecap="round"
+          strokeLinejoin="round"
           className="svg-elem-26"
         ></path>
         <g filter="url(#filter2_dd_1974_7163)">
@@ -251,7 +251,7 @@ export function StackDesktop(props: any) {
             rx="51.5421"
             ry="18.2681"
             fill="url(#paint7_radial_1974_7163)"
-            fill-opacity="0.44"
+            fillOpacity="0.44"
             className="svg-elem-29"
           ></ellipse>
           <path
@@ -262,7 +262,7 @@ export function StackDesktop(props: any) {
           <path
             d="M784.18 115.728C811.205 115.728 833.113 108.114 833.113 98.7212V85.7161H735.248V98.7212C735.248 108.114 757.156 115.728 784.18 115.728Z"
             fill="#C6D4DB"
-            fill-opacity="0.284"
+            fillOpacity="0.284"
             className="svg-elem-31"
           ></path>
           <path
@@ -290,7 +290,7 @@ export function StackDesktop(props: any) {
             rx="51.5421"
             ry="19.573"
             fill="url(#paint12_radial_1974_7163)"
-            fill-opacity="0.44"
+            fillOpacity="0.44"
             className="svg-elem-35"
           ></ellipse>
           <path
@@ -301,7 +301,7 @@ export function StackDesktop(props: any) {
           <path
             d="M784.18 87.0216C811.205 87.0216 833.113 79.0764 833.113 69.2754V55.7048H735.248V69.2754C735.248 79.0764 757.156 87.0216 784.18 87.0216Z"
             fill="#C6D4DB"
-            fill-opacity="0.284"
+            fillOpacity="0.284"
             className="svg-elem-37"
           ></path>
           <path
@@ -326,8 +326,8 @@ export function StackDesktop(props: any) {
           <path
             d="M834.831 40.8189C834.831 43.0952 833.585 45.3748 831.087 47.5574C828.59 49.7384 824.925 51.7431 820.319 53.4447C811.114 56.8452 798.338 58.9664 784.183 58.9664C770.027 58.9664 757.251 56.8452 748.047 53.4447C743.441 51.7431 739.776 49.7384 737.279 47.5574C734.78 45.3748 733.534 43.0952 733.534 40.8189C733.534 38.5426 734.78 36.2629 737.279 34.0803C739.776 31.8994 743.441 29.8946 748.047 28.1931C757.251 24.7925 770.027 22.6714 784.183 22.6714C798.338 22.6714 811.114 24.7925 820.319 28.1931C824.925 29.8946 828.59 31.8994 831.087 34.0803C833.585 36.2629 834.831 38.5426 834.831 40.8189Z"
             stroke="url(#paint17_radial_1974_7163)"
-            stroke-opacity="0.46"
-            stroke-width="1.78759"
+            strokeOpacity="0.46"
+            strokeWidth="1.78759"
             className="svg-elem-41"
           ></path>
         </g>
@@ -357,7 +357,7 @@ export function StackDesktop(props: any) {
             height="57.6764"
             rx="6.36921"
             fill="url(#paint20_radial_1974_7163)"
-            fill-opacity="0.44"
+            fillOpacity="0.44"
             className="svg-elem-44"
           ></rect>
           <rect
@@ -376,7 +376,7 @@ export function StackDesktop(props: any) {
             height="57.6764"
             rx="6.36921"
             fill="#C6D4DB"
-            fill-opacity="0.284"
+            fillOpacity="0.284"
             className="svg-elem-46"
           ></rect>
           <rect
@@ -414,7 +414,7 @@ export function StackDesktop(props: any) {
             height="57.6764"
             rx="6.36921"
             fill="url(#paint25_radial_1974_7163)"
-            fill-opacity="0.44"
+            fillOpacity="0.44"
             className="svg-elem-50"
           ></rect>
           <rect
@@ -433,7 +433,7 @@ export function StackDesktop(props: any) {
             height="57.6764"
             rx="6.36921"
             fill="#C6D4DB"
-            fill-opacity="0.284"
+            fillOpacity="0.284"
             className="svg-elem-52"
           ></rect>
           <rect
@@ -471,8 +471,8 @@ export function StackDesktop(props: any) {
             height="42.9102"
             rx="5.47541"
             stroke="url(#paint30_radial_1974_7163)"
-            stroke-opacity="0.46"
-            stroke-width="1.78759"
+            strokeOpacity="0.46"
+            strokeWidth="1.78759"
             className="svg-elem-56"
           ></rect>
           <path
@@ -481,8 +481,8 @@ export function StackDesktop(props: any) {
             className="svg-elem-57"
           ></path>
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M442.676 73.2644C442.676 75.4107 440.932 77.1472 438.785 77.1472C436.638 77.1472 434.895 75.4107 434.895 73.2644C434.895 71.118 436.638 69.3816 438.785 69.3816C440.932 69.3816 442.676 71.118 442.676 73.2644ZM438.785 76.351C440.495 76.351 441.88 74.9691 441.88 73.2644C441.88 71.5597 440.495 70.1777 438.785 70.1777C437.076 70.1777 435.691 71.5597 435.691 73.2644C435.691 74.9691 437.076 76.351 438.785 76.351Z"
             fill="#C3DAFE"
             className="svg-elem-58"
@@ -493,8 +493,8 @@ export function StackDesktop(props: any) {
             className="svg-elem-59"
           ></path>
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M452.677 73.2644C452.677 75.4107 450.933 77.1472 448.786 77.1472C446.639 77.1472 444.896 75.4107 444.896 73.2644C444.896 71.118 446.639 69.3816 448.786 69.3816C450.933 69.3816 452.677 71.118 452.677 73.2644ZM448.786 76.351C450.496 76.351 451.881 74.9691 451.881 73.2644C451.881 71.5597 450.496 70.1777 448.786 70.1777C447.077 70.1777 445.692 71.5597 445.692 73.2644C445.692 74.9691 447.077 76.351 448.786 76.351Z"
             fill="#C3DAFE"
             className="svg-elem-60"
@@ -507,8 +507,8 @@ export function StackDesktop(props: any) {
             ></path>
           </g>
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M491.717 71.5896H516.967C517.892 71.5896 518.642 72.3394 518.642 73.2643C518.642 74.1892 517.892 74.939 516.967 74.939H491.717C490.792 74.939 490.042 74.1892 490.042 73.2643C490.042 72.3394 490.792 71.5896 491.717 71.5896ZM491.717 72.3858C491.231 72.3858 490.838 72.7791 490.838 73.2643C490.838 73.7495 491.231 74.1429 491.717 74.1429H516.967C517.452 74.1429 517.845 73.7495 517.845 73.2643C517.845 72.7791 517.452 72.3858 516.967 72.3858H491.717Z"
             fill="#C3DAFE"
             className="svg-elem-62"
@@ -639,50 +639,50 @@ export function StackDesktop(props: any) {
             className="svg-elem-83"
           ></rect>
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M461.321 146.465C461.1 146.826 461.103 147.282 461.33 147.64L465.433 154.113C465.7 154.533 466.213 154.725 466.69 154.582L478.532 151.029C479.178 150.835 479.503 150.114 479.221 149.502L471.608 132.988C471.237 132.182 470.117 132.116 469.654 132.872L461.321 146.465ZM471.406 136.763C471.244 136.389 470.696 136.446 470.616 136.846L467.685 151.439C467.623 151.747 467.911 152.01 468.212 151.92L476.394 149.478C476.633 149.406 476.756 149.143 476.657 148.914L471.406 136.763Z"
             fill="white"
             className="svg-elem-84"
           ></path>
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M486.418 143.443H487.14C487.814 143.443 488.318 143.31 488.652 143.044C488.987 142.777 489.155 142.389 489.155 141.88C489.155 141.367 489.014 140.987 488.734 140.742C488.453 140.497 488.014 140.374 487.415 140.374H486.418V143.443ZM491.368 141.803C491.368 142.915 491.02 143.766 490.325 144.355C489.629 144.944 488.641 145.239 487.359 145.239H486.418V148.916H484.227V138.579H487.528C488.782 138.579 489.736 138.848 490.388 139.388C491.041 139.928 491.368 140.733 491.368 141.803V141.803Z"
             fill="white"
             className="svg-elem-85"
           ></path>
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M497.178 140.862C497.47 140.862 497.713 140.884 497.906 140.926L497.743 142.948C497.569 142.901 497.357 142.877 497.107 142.877C496.419 142.877 495.883 143.054 495.498 143.408C495.114 143.761 494.922 144.256 494.922 144.893V148.916H492.766V141.011H494.399L494.717 142.34H494.823C495.068 141.897 495.399 141.54 495.817 141.269C496.234 140.998 496.687 140.862 497.178 140.862"
             fill="white"
             className="svg-elem-86"
           ></path>
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M499.049 148.916H501.206V141.011H499.049V148.916ZM498.958 138.967C498.958 138.265 499.349 137.914 500.132 137.914C500.914 137.914 501.305 138.265 501.305 138.967C501.305 139.302 501.207 139.563 501.012 139.749C500.816 139.935 500.523 140.028 500.132 140.028C499.349 140.028 498.958 139.674 498.958 138.967V138.967Z"
             fill="white"
             className="svg-elem-87"
           ></path>
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M508.799 146.568C508.799 147.379 508.517 147.997 507.953 148.421C507.39 148.845 506.548 149.057 505.426 149.057C504.851 149.057 504.361 149.018 503.955 148.94C503.55 148.863 503.17 148.748 502.817 148.598V146.816C503.218 147.004 503.669 147.162 504.171 147.29C504.673 147.417 505.115 147.48 505.497 147.48C506.279 147.48 506.67 147.254 506.67 146.802C506.67 146.632 506.619 146.494 506.515 146.388C506.411 146.282 506.232 146.162 505.977 146.027C505.723 145.893 505.383 145.736 504.959 145.557C504.351 145.303 503.904 145.067 503.62 144.85C503.334 144.633 503.127 144.385 502.997 144.104C502.868 143.824 502.803 143.478 502.803 143.068C502.803 142.366 503.075 141.823 503.62 141.439C504.164 141.055 504.936 140.863 505.935 140.863C506.887 140.863 507.813 141.07 508.714 141.485L508.063 143.04C507.667 142.87 507.297 142.732 506.953 142.623C506.609 142.515 506.258 142.46 505.9 142.46C505.263 142.46 504.945 142.632 504.945 142.976C504.945 143.17 505.048 143.337 505.253 143.478C505.458 143.62 505.907 143.83 506.6 144.108C507.217 144.358 507.67 144.591 507.957 144.808C508.245 145.025 508.457 145.274 508.594 145.557C508.73 145.84 508.799 146.177 508.799 146.568"
             fill="white"
             className="svg-elem-88"
           ></path>
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M517.341 148.916H515.185V144.299C515.185 143.728 515.089 143.3 514.899 143.015C514.707 142.73 514.407 142.587 513.997 142.587C513.446 142.587 513.045 142.79 512.795 143.196C512.545 143.601 512.42 144.268 512.42 145.197V148.916H510.264V141.011H511.911L512.201 142.022H512.321C512.533 141.659 512.84 141.375 513.24 141.17C513.641 140.965 514.101 140.862 514.619 140.862C515.802 140.862 516.604 141.249 517.023 142.022H517.214C517.426 141.654 517.739 141.369 518.151 141.166C518.563 140.964 519.029 140.862 519.547 140.862C520.443 140.862 521.121 141.092 521.58 141.552C522.04 142.011 522.269 142.748 522.269 143.761V148.916H520.106V144.299C520.106 143.728 520.01 143.3 519.82 143.015C519.628 142.73 519.328 142.587 518.918 142.587C518.39 142.587 517.995 142.776 517.734 143.153C517.472 143.53 517.341 144.129 517.341 144.949V148.916Z"
             fill="white"
             className="svg-elem-89"
           ></path>
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M528.546 145.253L527.711 145.281C527.084 145.3 526.618 145.413 526.312 145.621C526.005 145.828 525.852 146.144 525.852 146.568C525.852 147.176 526.201 147.48 526.898 147.48C527.398 147.48 527.798 147.337 528.097 147.049C528.396 146.762 528.546 146.38 528.546 145.904V145.253ZM529.182 148.916L528.765 147.841H528.708C528.345 148.298 527.972 148.615 527.587 148.792C527.203 148.969 526.703 149.057 526.085 149.057C525.326 149.057 524.729 148.84 524.293 148.407C523.857 147.973 523.639 147.356 523.639 146.554C523.639 145.715 523.932 145.097 524.519 144.698C525.106 144.3 525.991 144.08 527.174 144.037L528.546 143.995V143.648C528.546 142.847 528.135 142.446 527.315 142.446C526.684 142.446 525.941 142.637 525.088 143.019L524.374 141.562C525.284 141.086 526.293 140.848 527.4 140.848C528.461 140.848 529.274 141.079 529.84 141.541C530.405 142.003 530.688 142.705 530.688 143.648V148.916H529.182Z"
             fill="white"
             className="svg-elem-90"
@@ -696,9 +696,9 @@ export function StackDesktop(props: any) {
             width="131.001"
             height="85.9235"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
             <feColorMatrix
               in="SourceAlpha"
               type="matrix"
@@ -747,9 +747,9 @@ export function StackDesktop(props: any) {
             width="124.908"
             height="150.722"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
             <feColorMatrix
               in="SourceAlpha"
               type="matrix"
@@ -798,9 +798,9 @@ export function StackDesktop(props: any) {
             width="108.277"
             height="124.201"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
             <feColorMatrix
               in="SourceAlpha"
               type="matrix"
@@ -849,9 +849,9 @@ export function StackDesktop(props: any) {
             width="108.277"
             height="121.239"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
             <feColorMatrix
               in="SourceAlpha"
               type="matrix"
@@ -900,9 +900,9 @@ export function StackDesktop(props: any) {
             width="27.0068"
             height="11.4932"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
             <feBlend
               mode="normal"
               in="SourceGraphic"
@@ -1009,9 +1009,9 @@ export function StackDesktop(props: any) {
             width="102.812"
             height="48.6973"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
             <feColorMatrix
               in="SourceAlpha"
               type="matrix"
@@ -1061,8 +1061,8 @@ export function StackDesktop(props: any) {
             y2="224.078"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#5A67D6"></stop>
-            <stop offset="1" stop-color="#74A6DD"></stop>
+            <stop stopColor="#5A67D6"></stop>
+            <stop offset="1" stopColor="#74A6DD"></stop>
           </linearGradient>
           <linearGradient
             id="paint1_linear_1974_7163"
@@ -1072,8 +1072,8 @@ export function StackDesktop(props: any) {
             y2="123.082"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#92EFE6"></stop>
-            <stop offset="1" stop-color="#5A67D8"></stop>
+            <stop stopColor="#92EFE6"></stop>
+            <stop offset="1" stopColor="#5A67D8"></stop>
           </linearGradient>
           <linearGradient
             id="paint2_linear_1974_7163"
@@ -1083,8 +1083,8 @@ export function StackDesktop(props: any) {
             y2="105.308"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#2D3748"></stop>
-            <stop offset="1" stop-color="#273040"></stop>
+            <stop stopColor="#2D3748"></stop>
+            <stop offset="1" stopColor="#273040"></stop>
           </linearGradient>
           <linearGradient
             id="paint3_linear_1974_7163"
@@ -1094,8 +1094,8 @@ export function StackDesktop(props: any) {
             y2="123.07"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#92EFE6"></stop>
-            <stop offset="1" stop-color="#5A67D8"></stop>
+            <stop stopColor="#92EFE6"></stop>
+            <stop offset="1" stopColor="#5A67D8"></stop>
           </linearGradient>
           <linearGradient
             id="paint4_linear_1974_7163"
@@ -1105,8 +1105,8 @@ export function StackDesktop(props: any) {
             y2="85.4167"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="white"></stop>
-            <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+            <stop stopColor="white"></stop>
+            <stop offset="1" stopColor="white" stopOpacity="0"></stop>
           </linearGradient>
           <linearGradient
             id="paint5_linear_1974_7163"
@@ -1116,9 +1116,9 @@ export function StackDesktop(props: any) {
             y2="93.7687"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#B4C5CD"></stop>
-            <stop offset="0.718232" stop-color="#6C8A98"></stop>
-            <stop offset="1" stop-color="#6B8692"></stop>
+            <stop stopColor="#B4C5CD"></stop>
+            <stop offset="0.718232" stopColor="#6C8A98"></stop>
+            <stop offset="1" stopColor="#6B8692"></stop>
           </linearGradient>
           <linearGradient
             id="paint6_linear_1974_7163"
@@ -1128,8 +1128,8 @@ export function StackDesktop(props: any) {
             y2="123.625"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#648697"></stop>
-            <stop offset="1" stop-color="#B8CCD5"></stop>
+            <stop stopColor="#648697"></stop>
+            <stop offset="1" stopColor="#B8CCD5"></stop>
           </linearGradient>
           <radialGradient
             id="paint7_radial_1974_7163"
@@ -1139,8 +1139,8 @@ export function StackDesktop(props: any) {
             gradientUnits="userSpaceOnUse"
             gradientTransform="translate(755.281 118.408) rotate(-140.974) scale(29.1464 25.0098)"
           >
-            <stop stop-color="white"></stop>
-            <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+            <stop stopColor="white"></stop>
+            <stop offset="1" stopColor="white" stopOpacity="0"></stop>
           </radialGradient>
           <linearGradient
             id="paint8_linear_1974_7163"
@@ -1150,9 +1150,9 @@ export function StackDesktop(props: any) {
             y2="80.885"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#183C56"></stop>
-            <stop offset="0.286458" stop-color="#335D7B"></stop>
-            <stop offset="1" stop-color="#082133"></stop>
+            <stop stopColor="#183C56"></stop>
+            <stop offset="0.286458" stopColor="#335D7B"></stop>
+            <stop offset="1" stopColor="#082133"></stop>
           </linearGradient>
           <linearGradient
             id="paint9_linear_1974_7163"
@@ -1162,9 +1162,9 @@ export function StackDesktop(props: any) {
             y2="75.5225"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#183C56"></stop>
-            <stop offset="0.286458" stop-color="#335D7B"></stop>
-            <stop offset="1" stop-color="#082133"></stop>
+            <stop stopColor="#183C56"></stop>
+            <stop offset="0.286458" stopColor="#335D7B"></stop>
+            <stop offset="1" stopColor="#082133"></stop>
           </linearGradient>
           <linearGradient
             id="paint10_linear_1974_7163"
@@ -1174,9 +1174,9 @@ export function StackDesktop(props: any) {
             y2="69.4647"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#B4C5CD"></stop>
-            <stop offset="0.718232" stop-color="#6C8A98"></stop>
-            <stop offset="1" stop-color="#6B8692"></stop>
+            <stop stopColor="#B4C5CD"></stop>
+            <stop offset="0.718232" stopColor="#6C8A98"></stop>
+            <stop offset="1" stopColor="#6B8692"></stop>
           </linearGradient>
           <linearGradient
             id="paint11_linear_1974_7163"
@@ -1186,8 +1186,8 @@ export function StackDesktop(props: any) {
             y2="91.4649"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#648697"></stop>
-            <stop offset="1" stop-color="#B8CCD5"></stop>
+            <stop stopColor="#648697"></stop>
+            <stop offset="1" stopColor="#B8CCD5"></stop>
           </linearGradient>
           <radialGradient
             id="paint12_radial_1974_7163"
@@ -1197,8 +1197,8 @@ export function StackDesktop(props: any) {
             gradientUnits="userSpaceOnUse"
             gradientTransform="translate(755.281 89.706) rotate(-139.028) scale(29.9891 26.0432)"
           >
-            <stop stop-color="white"></stop>
-            <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+            <stop stopColor="white"></stop>
+            <stop offset="1" stopColor="white" stopOpacity="0"></stop>
           </radialGradient>
           <linearGradient
             id="paint13_linear_1974_7163"
@@ -1208,9 +1208,9 @@ export function StackDesktop(props: any) {
             y2="50.6637"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#183C56"></stop>
-            <stop offset="0.286458" stop-color="#335D7B"></stop>
-            <stop offset="1" stop-color="#082133"></stop>
+            <stop stopColor="#183C56"></stop>
+            <stop offset="0.286458" stopColor="#335D7B"></stop>
+            <stop offset="1" stopColor="#082133"></stop>
           </linearGradient>
           <linearGradient
             id="paint14_linear_1974_7163"
@@ -1220,9 +1220,9 @@ export function StackDesktop(props: any) {
             y2="44.705"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#183C56"></stop>
-            <stop offset="0.286458" stop-color="#335D7B"></stop>
-            <stop offset="1" stop-color="#082133"></stop>
+            <stop stopColor="#183C56"></stop>
+            <stop offset="0.286458" stopColor="#335D7B"></stop>
+            <stop offset="1" stopColor="#082133"></stop>
           </linearGradient>
           <linearGradient
             id="paint15_linear_1974_7163"
@@ -1232,9 +1232,9 @@ export function StackDesktop(props: any) {
             y2="39.4892"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#B4C5CD"></stop>
-            <stop offset="0.718232" stop-color="#6C8A98"></stop>
-            <stop offset="1" stop-color="#6B8692"></stop>
+            <stop stopColor="#B4C5CD"></stop>
+            <stop offset="0.718232" stopColor="#6C8A98"></stop>
+            <stop offset="1" stopColor="#6B8692"></stop>
           </linearGradient>
           <linearGradient
             id="paint16_linear_1974_7163"
@@ -1244,8 +1244,8 @@ export function StackDesktop(props: any) {
             y2="75.2789"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#B9CAD2"></stop>
-            <stop offset="1" stop-color="#DBE6EB"></stop>
+            <stop stopColor="#B9CAD2"></stop>
+            <stop offset="1" stopColor="#DBE6EB"></stop>
           </linearGradient>
           <radialGradient
             id="paint17_radial_1974_7163"
@@ -1255,8 +1255,8 @@ export function StackDesktop(props: any) {
             gradientUnits="userSpaceOnUse"
             gradientTransform="translate(747.537 56.9335) rotate(-34.7432) scale(44.959 121.698)"
           >
-            <stop stop-color="white"></stop>
-            <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+            <stop stopColor="white"></stop>
+            <stop offset="1" stopColor="white" stopOpacity="0"></stop>
           </radialGradient>
           <linearGradient
             id="paint18_linear_1974_7163"
@@ -1266,9 +1266,9 @@ export function StackDesktop(props: any) {
             y2="75.5808"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#B4C5CD"></stop>
-            <stop offset="0.718232" stop-color="#6C8A98"></stop>
-            <stop offset="1" stop-color="#6B8692"></stop>
+            <stop stopColor="#B4C5CD"></stop>
+            <stop offset="0.718232" stopColor="#6C8A98"></stop>
+            <stop offset="1" stopColor="#6B8692"></stop>
           </linearGradient>
           <linearGradient
             id="paint19_linear_1974_7163"
@@ -1278,8 +1278,8 @@ export function StackDesktop(props: any) {
             y2="95.8549"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#648697"></stop>
-            <stop offset="1" stop-color="#B8CCD5"></stop>
+            <stop stopColor="#648697"></stop>
+            <stop offset="1" stopColor="#B8CCD5"></stop>
           </linearGradient>
           <radialGradient
             id="paint20_radial_1974_7163"
@@ -1289,8 +1289,8 @@ export function StackDesktop(props: any) {
             gradientUnits="userSpaceOnUse"
             gradientTransform="translate(446.871 121.485) rotate(-128.121) scale(36.8264 31.373)"
           >
-            <stop stop-color="white"></stop>
-            <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+            <stop stopColor="white"></stop>
+            <stop offset="1" stopColor="white" stopOpacity="0"></stop>
           </radialGradient>
           <linearGradient
             id="paint21_linear_1974_7163"
@@ -1300,9 +1300,9 @@ export function StackDesktop(props: any) {
             y2="51.6227"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#183C56"></stop>
-            <stop offset="0.286458" stop-color="#335D7B"></stop>
-            <stop offset="1" stop-color="#082133"></stop>
+            <stop stopColor="#183C56"></stop>
+            <stop offset="0.286458" stopColor="#335D7B"></stop>
+            <stop offset="1" stopColor="#082133"></stop>
           </linearGradient>
           <linearGradient
             id="paint22_linear_1974_7163"
@@ -1312,9 +1312,9 @@ export function StackDesktop(props: any) {
             y2="44.1828"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#183C56"></stop>
-            <stop offset="0.286458" stop-color="#335D7B"></stop>
-            <stop offset="1" stop-color="#082133"></stop>
+            <stop stopColor="#183C56"></stop>
+            <stop offset="0.286458" stopColor="#335D7B"></stop>
+            <stop offset="1" stopColor="#082133"></stop>
           </linearGradient>
           <linearGradient
             id="paint23_linear_1974_7163"
@@ -1324,9 +1324,9 @@ export function StackDesktop(props: any) {
             y2="46.7419"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#B4C5CD"></stop>
-            <stop offset="0.718232" stop-color="#6C8A98"></stop>
-            <stop offset="1" stop-color="#6B8692"></stop>
+            <stop stopColor="#B4C5CD"></stop>
+            <stop offset="0.718232" stopColor="#6C8A98"></stop>
+            <stop offset="1" stopColor="#6B8692"></stop>
           </linearGradient>
           <linearGradient
             id="paint24_linear_1974_7163"
@@ -1336,8 +1336,8 @@ export function StackDesktop(props: any) {
             y2="67.017"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#648697"></stop>
-            <stop offset="1" stop-color="#B8CCD5"></stop>
+            <stop stopColor="#648697"></stop>
+            <stop offset="1" stopColor="#B8CCD5"></stop>
           </linearGradient>
           <radialGradient
             id="paint25_radial_1974_7163"
@@ -1347,8 +1347,8 @@ export function StackDesktop(props: any) {
             gradientUnits="userSpaceOnUse"
             gradientTransform="translate(446.871 92.6469) rotate(-128.121) scale(36.8264 31.373)"
           >
-            <stop stop-color="white"></stop>
-            <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+            <stop stopColor="white"></stop>
+            <stop offset="1" stopColor="white" stopOpacity="0"></stop>
           </radialGradient>
           <linearGradient
             id="paint26_linear_1974_7163"
@@ -1358,9 +1358,9 @@ export function StackDesktop(props: any) {
             y2="22.7848"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#183C56"></stop>
-            <stop offset="0.286458" stop-color="#335D7B"></stop>
-            <stop offset="1" stop-color="#082133"></stop>
+            <stop stopColor="#183C56"></stop>
+            <stop offset="0.286458" stopColor="#335D7B"></stop>
+            <stop offset="1" stopColor="#082133"></stop>
           </linearGradient>
           <linearGradient
             id="paint27_linear_1974_7163"
@@ -1370,9 +1370,9 @@ export function StackDesktop(props: any) {
             y2="15.3442"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#183C56"></stop>
-            <stop offset="0.286458" stop-color="#335D7B"></stop>
-            <stop offset="1" stop-color="#082133"></stop>
+            <stop stopColor="#183C56"></stop>
+            <stop offset="0.286458" stopColor="#335D7B"></stop>
+            <stop offset="1" stopColor="#082133"></stop>
           </linearGradient>
           <linearGradient
             id="paint28_linear_1974_7163"
@@ -1382,9 +1382,9 @@ export function StackDesktop(props: any) {
             y2="18.3876"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#B4C5CD"></stop>
-            <stop offset="0.718232" stop-color="#6C8A98"></stop>
-            <stop offset="1" stop-color="#6B8692"></stop>
+            <stop stopColor="#B4C5CD"></stop>
+            <stop offset="0.718232" stopColor="#6C8A98"></stop>
+            <stop offset="1" stopColor="#6B8692"></stop>
           </linearGradient>
           <linearGradient
             id="paint29_linear_1974_7163"
@@ -1394,8 +1394,8 @@ export function StackDesktop(props: any) {
             y2="75.8638"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#B9CAD2"></stop>
-            <stop offset="1" stop-color="#DBE6EB"></stop>
+            <stop stopColor="#B9CAD2"></stop>
+            <stop offset="1" stopColor="#DBE6EB"></stop>
           </linearGradient>
           <radialGradient
             id="paint30_radial_1974_7163"
@@ -1405,8 +1405,8 @@ export function StackDesktop(props: any) {
             gradientUnits="userSpaceOnUse"
             gradientTransform="translate(439.093 62.6475) rotate(-39.0336) scale(47.7516 135.026)"
           >
-            <stop stop-color="white"></stop>
-            <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+            <stop stopColor="white"></stop>
+            <stop offset="1" stopColor="white" stopOpacity="0"></stop>
           </radialGradient>
           <linearGradient
             id="paint31_linear_1974_7163"
@@ -1416,8 +1416,8 @@ export function StackDesktop(props: any) {
             y2="10.3036"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#4C51BF"></stop>
-            <stop offset="1" stop-color="#4C51BF" stop-opacity="0"></stop>
+            <stop stopColor="#4C51BF"></stop>
+            <stop offset="1" stopColor="#4C51BF" stopOpacity="0"></stop>
           </linearGradient>
           <linearGradient
             id="paint32_linear_1974_7163"
@@ -1427,9 +1427,9 @@ export function StackDesktop(props: any) {
             y2="27.1351"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#F7FAFC"></stop>
-            <stop offset="0.88298" stop-color="#EDF2F7"></stop>
-            <stop offset="1" stop-color="#CBD5E0"></stop>
+            <stop stopColor="#F7FAFC"></stop>
+            <stop offset="0.88298" stopColor="#EDF2F7"></stop>
+            <stop offset="1" stopColor="#CBD5E0"></stop>
           </linearGradient>
           <linearGradient
             id="paint33_linear_1974_7163"
@@ -1439,8 +1439,8 @@ export function StackDesktop(props: any) {
             y2="38.253"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#4C51BF"></stop>
-            <stop offset="1" stop-color="#4C51BF" stop-opacity="0"></stop>
+            <stop stopColor="#4C51BF"></stop>
+            <stop offset="1" stopColor="#4C51BF" stopOpacity="0"></stop>
           </linearGradient>
           <linearGradient
             id="paint34_linear_1974_7163"
@@ -1450,8 +1450,8 @@ export function StackDesktop(props: any) {
             y2="111.528"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#4C51BF"></stop>
-            <stop offset="1" stop-color="#4C51BF" stop-opacity="0"></stop>
+            <stop stopColor="#4C51BF"></stop>
+            <stop offset="1" stopColor="#4C51BF" stopOpacity="0"></stop>
           </linearGradient>
           <linearGradient
             id="paint35_linear_1974_7163"
@@ -1461,8 +1461,8 @@ export function StackDesktop(props: any) {
             y2="39.0889"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#4C51BF"></stop>
-            <stop offset="1" stop-color="#4C51BF" stop-opacity="0"></stop>
+            <stop stopColor="#4C51BF"></stop>
+            <stop offset="1" stopColor="#4C51BF" stopOpacity="0"></stop>
           </linearGradient>
           <linearGradient
             id="paint36_linear_1974_7163"
@@ -1472,8 +1472,8 @@ export function StackDesktop(props: any) {
             y2="105.353"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#4C51BF"></stop>
-            <stop offset="1" stop-color="#4C51BF" stop-opacity="0"></stop>
+            <stop stopColor="#4C51BF"></stop>
+            <stop offset="1" stopColor="#4C51BF" stopOpacity="0"></stop>
           </linearGradient>
           <linearGradient
             id="paint37_linear_1974_7163"
@@ -1483,9 +1483,9 @@ export function StackDesktop(props: any) {
             y2="137.243"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#B4C5CD"></stop>
-            <stop offset="0.718232" stop-color="#6C8A98"></stop>
-            <stop offset="1" stop-color="#6B8692"></stop>
+            <stop stopColor="#B4C5CD"></stop>
+            <stop offset="0.718232" stopColor="#6C8A98"></stop>
+            <stop offset="1" stopColor="#6B8692"></stop>
           </linearGradient>
           <linearGradient
             id="paint38_linear_1974_7163"
@@ -1495,8 +1495,8 @@ export function StackDesktop(props: any) {
             y2="177.519"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#335D7B"></stop>
-            <stop offset="1" stop-color="#082133"></stop>
+            <stop stopColor="#335D7B"></stop>
+            <stop offset="1" stopColor="#082133"></stop>
           </linearGradient>
           <linearGradient
             id="paint39_linear_1974_7163"
@@ -1506,8 +1506,8 @@ export function StackDesktop(props: any) {
             y2="110.191"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#4C51BF"></stop>
-            <stop offset="1" stop-color="#4C51BF" stop-opacity="0"></stop>
+            <stop stopColor="#4C51BF"></stop>
+            <stop offset="1" stopColor="#4C51BF" stopOpacity="0"></stop>
           </linearGradient>
           <clipPath id="clip0_1974_7163">
             <rect

@@ -4,6 +4,8 @@ import { SixthSectionSVG } from '../../../assets/images/sixthSection/SixthSectio
 import { SixthSectionSVG2 } from '../../../assets/images/sixthSection/SixthSectionSVG2'
 import './SixthSection.css'
 
+import collab from '../../../assets/images/sixthSection/optimise-filter.svg'
+
 export function SixthSection() {
   const [showSvg, setShowSvg] = useState(true)
   const [showSvg2, setShowSvg2] = useState(false)
@@ -46,18 +48,18 @@ export function SixthSection() {
                 <div className="text-center cursor-pointer">
                   {showSvg && (
                     <div className="svgProxy">
-                      <SixthSectionSVG className="active"/>
+                      <SixthSectionSVG className="active" />
                     </div>
                   )}
                   {showSvg2 && (
                     <div className="=">
-                      <SixthSectionSVG2  className="active"/>
+                      <SixthSectionSVG2 className="active" />
                     </div>
                   )}
                 </div>
               </div>
               <div className="sixthBodyOneTwo">
-                <h3 className='fontBarlow'>Serverless functions made easy</h3>
+                <h3 className="fontBarlow">Serverless functions made easy</h3>
                 <p>
                   When used with the ORM, the Data Proxy manages a connection
                   pool to avoid running out of connections during traffic
@@ -66,7 +68,20 @@ export function SixthSection() {
                 </p>
               </div>
             </div>
-            <div className=""></div>
+            <div className="sixthBodyTwo">
+              <div className="">
+                <img src={collab} alt="" />
+              </div>
+              <div className="">
+                <h3>Collaborate safely with your team</h3>
+                <p>
+                  Invite your colleagues and collaborate with appropriate
+                  permissions. Manage and verify your application data in the
+                  cloud with the Data Browser. Then test and troubleshoot Prisma
+                  queries directly from your browser using the Query Console.
+                </p>
+              </div>
+            </div>
           </div>
           <div className="sixthFooter text-center"></div>
         </Container>
