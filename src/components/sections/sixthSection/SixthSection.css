@@ -66,7 +66,7 @@
     margin-bottom: 48px;
 }
 
-.sixthBodyOneOn,
+.sixthBodyOneOne,
 .sixthBodyOneTwo {
     flex: 1 1 0%;
 }
@@ -78,9 +78,13 @@
     letter-spacing: -.02em;
     line-height: 110%;
 }
+
 .sixthBodyOneTwo p {
     font-weight: 400;
     color: #4a5568;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 140%;
 }
 
 .withProxy,
@@ -105,8 +109,6 @@
 .sixth-btns.without .withoutProxy {
     color: white;
 }
-
-
 
 @media (min-width:940px) {
     .sixth-section {
@@ -153,11 +155,11 @@
     }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 400px) {
 
     .withProxy,
     .withoutProxy {
-        font-size: 20px;
+        font-size: 16px;
     }
 }
 
@@ -170,10 +172,10 @@
     }
 }
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 768px) {
 
     .withProxy,
     .withoutProxy {
-        font-size: 16px;
+        font-size: 20px;
     }
 }

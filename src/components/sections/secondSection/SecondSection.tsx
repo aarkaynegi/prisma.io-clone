@@ -65,8 +65,10 @@ export function SecondSection() {
                   Supported Databases
                 </span>
                 <div className="badge-list group-hover:opacity-50">
-                  {badgeItems.map((badge) => (
-                    <div className="badge-item">{badge}</div>
+                  {badgeItems.map((badge, index) => (
+                    <div className="badge-item" key={index}>
+                      {badge}
+                    </div>
                   ))}
                 </div>
                 <div className="hidden whitespace-nowrap p-[8px] bg-[#e2e8f0] text-[#4a5568] absolute left-[50%] top-[50%] font-bold rounded-[6px] translate-x-[-50%] translate-y-[-50%] z-[100] group-hover:block">

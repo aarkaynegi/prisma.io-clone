@@ -11,7 +11,7 @@ export function StackHhp(props: any) {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <g clip-path="url(#clip0_1974_7449)">
+        <g clipPath="url(#clip0_1974_7449)">
           <path
             d="M124.463 75.3516C124.463 73.3859 125.656 71.7925 127.127 71.7925H272.675C274.147 71.7925 275.34 73.3859 275.34 75.3516V191.602C275.34 193.568 274.147 195.162 272.675 195.162H127.127C125.656 195.162 124.463 193.568 124.463 191.602V75.3516Z"
             fill="#2D3748"
@@ -56,8 +56,8 @@ export function StackHhp(props: any) {
           height="120.035"
           rx="11.67"
           stroke="#A0AEC0"
-          stroke-width="3.3343"
-          stroke-linejoin="round"
+          strokeWidth="3.3343"
+          strokeLinejoin="round"
           className="svg-elem-7"
         ></rect>
         <g filter="url(#filter1_dd_1974_7449)">
@@ -79,8 +79,8 @@ export function StackHhp(props: any) {
             rx="7.65891"
             transform="rotate(-22.7072 66.1467 134.148)"
             stroke="url(#paint1_linear_1974_7449)"
-            stroke-opacity="0.75"
-            stroke-width="2.50045"
+            strokeOpacity="0.75"
+            strokeWidth="2.50045"
             className="svg-elem-9"
           ></rect>
           <rect
@@ -101,8 +101,8 @@ export function StackHhp(props: any) {
             rx="7.65891"
             transform="rotate(-22.7072 66.1467 134.148)"
             stroke="url(#paint3_linear_1974_7449)"
-            stroke-opacity="0.75"
-            stroke-width="2.50045"
+            strokeOpacity="0.75"
+            strokeWidth="2.50045"
             className="svg-elem-11"
           ></rect>
           <path
@@ -118,7 +118,7 @@ export function StackHhp(props: any) {
             rx="1.00902"
             transform="rotate(-22.7072 91.8828 133.9)"
             fill="url(#paint4_linear_1974_7449)"
-            fill-opacity="0.46"
+            fillOpacity="0.46"
             className="svg-elem-13"
           ></rect>
         </g>
@@ -128,23 +128,23 @@ export function StackHhp(props: any) {
           x2="159.606"
           y2="252.75"
           stroke="#A3BFFA"
-          stroke-width="5"
-          stroke-linecap="round"
+          strokeWidth="5"
+          strokeLinecap="round"
           className="svg-elem-14"
         ></line>
         <path
           d="M157.106 321.302L157.106 355.501"
           stroke="#A3BFFA"
-          stroke-width="5"
-          stroke-linecap="round"
+          strokeWidth="5"
+          strokeLinecap="round"
           className="svg-elem-15"
         ></path>
         <path
           d="M167.062 345.483L157.044 355.501L147.026 345.483"
           stroke="#A3BFFA"
-          stroke-width="5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
           className="svg-elem-16"
         ></path>
         <line
@@ -153,15 +153,15 @@ export function StackHhp(props: any) {
           x2="155.213"
           y2="548.227"
           stroke="#A3BFFA"
-          stroke-width="5"
-          stroke-linecap="round"
+          strokeWidth="5"
+          strokeLinecap="round"
           className="svg-elem-17"
         ></line>
         <path
           d="M151.121 607.343L151.121 629.182"
           stroke="#A3BFFA"
-          stroke-width="5"
-          stroke-linecap="round"
+          strokeWidth="5"
+          strokeLinecap="round"
           className="svg-elem-18"
         ></path>
         <circle
@@ -170,7 +170,7 @@ export function StackHhp(props: any) {
           r="26.4953"
           transform="rotate(-45 154.03 578.355)"
           stroke="#183C56"
-          stroke-width="4.77691"
+          strokeWidth="4.77691"
           className="svg-elem-19"
         ></circle>
         <line
@@ -179,23 +179,23 @@ export function StackHhp(props: any) {
           x2="217.789"
           y2="615.406"
           stroke="#667EEA"
-          stroke-width="5"
-          stroke-linecap="round"
+          strokeWidth="5"
+          strokeLinecap="round"
           className="svg-elem-20"
         ></line>
         <path
           d="M218.695 549.993L218.695 525.628"
           stroke="#667EEA"
-          stroke-width="5"
-          stroke-linecap="round"
+          strokeWidth="5"
+          strokeLinecap="round"
           className="svg-elem-21"
         ></path>
         <path
           d="M228.713 532.623L218.695 522.605L208.677 532.623"
           stroke="#667EEA"
-          stroke-width="5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
           className="svg-elem-22"
         ></path>
         <line
@@ -204,23 +204,23 @@ export function StackHhp(props: any) {
           x2="228.479"
           y2="320.067"
           stroke="#667EEA"
-          stroke-width="5"
-          stroke-linecap="round"
+          strokeWidth="5"
+          strokeLinecap="round"
           className="svg-elem-23"
         ></line>
         <path
           d="M230.979 262.371L230.979 208.907"
           stroke="#667EEA"
-          stroke-width="5"
-          stroke-linecap="round"
+          strokeWidth="5"
+          strokeLinecap="round"
           className="svg-elem-24"
         ></path>
         <path
           d="M240.997 218.629L230.979 208.612L220.962 218.629"
           stroke="#667EEA"
-          stroke-width="5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
           className="svg-elem-25"
         ></path>
         <g filter="url(#filter2_dd_1974_7449)">
@@ -243,7 +243,7 @@ export function StackHhp(props: any) {
             rx="51.5421"
             ry="18.2681"
             fill="url(#paint7_radial_1974_7449)"
-            fill-opacity="0.44"
+            fillOpacity="0.44"
             className="svg-elem-28"
           ></ellipse>
           <path
@@ -254,7 +254,7 @@ export function StackHhp(props: any) {
           <path
             d="M188.688 730.04C215.713 730.04 237.621 722.426 237.621 713.033V700.028H139.756V713.033C139.756 722.426 161.664 730.04 188.688 730.04Z"
             fill="#C6D4DB"
-            fill-opacity="0.284"
+            fillOpacity="0.284"
             className="svg-elem-30"
           ></path>
           <path
@@ -282,7 +282,7 @@ export function StackHhp(props: any) {
             rx="51.5421"
             ry="19.573"
             fill="url(#paint12_radial_1974_7449)"
-            fill-opacity="0.44"
+            fillOpacity="0.44"
             className="svg-elem-34"
           ></ellipse>
           <path
@@ -293,7 +293,7 @@ export function StackHhp(props: any) {
           <path
             d="M188.688 701.334C215.713 701.334 237.621 693.388 237.621 683.587V670.017H139.756V683.587C139.756 693.388 161.664 701.334 188.688 701.334Z"
             fill="#C6D4DB"
-            fill-opacity="0.284"
+            fillOpacity="0.284"
             className="svg-elem-36"
           ></path>
           <path
@@ -318,8 +318,8 @@ export function StackHhp(props: any) {
           <path
             d="M239.339 655.131C239.339 657.407 238.093 659.687 235.594 661.869C233.097 664.05 229.433 666.055 224.827 667.757C215.622 671.157 202.846 673.278 188.691 673.278C174.535 673.278 161.759 671.157 152.555 667.757C147.949 666.055 144.284 664.05 141.787 661.869C139.288 659.687 138.042 657.407 138.042 655.131C138.042 652.855 139.288 650.575 141.787 648.392C144.284 646.211 147.949 644.207 152.555 642.505C161.759 639.105 174.535 636.983 188.691 636.983C202.846 636.983 215.622 639.105 224.827 642.505C229.433 644.207 233.097 646.211 235.594 648.392C238.093 650.575 239.339 652.855 239.339 655.131Z"
             stroke="url(#paint17_radial_1974_7449)"
-            stroke-opacity="0.46"
-            stroke-width="1.78759"
+            strokeOpacity="0.46"
+            strokeWidth="1.78759"
             className="svg-elem-40"
           ></path>
         </g>
@@ -349,7 +349,7 @@ export function StackHhp(props: any) {
             height="57.6764"
             rx="6.36921"
             fill="url(#paint20_radial_1974_7449)"
-            fill-opacity="0.44"
+            fillOpacity="0.44"
             className="svg-elem-43"
           ></rect>
           <rect
@@ -368,7 +368,7 @@ export function StackHhp(props: any) {
             height="57.6764"
             rx="6.36921"
             fill="#C6D4DB"
-            fill-opacity="0.284"
+            fillOpacity="0.284"
             className="svg-elem-45"
           ></rect>
           <rect
@@ -406,7 +406,7 @@ export function StackHhp(props: any) {
             height="57.6764"
             rx="6.36921"
             fill="url(#paint25_radial_1974_7449)"
-            fill-opacity="0.44"
+            fillOpacity="0.44"
             className="svg-elem-49"
           ></rect>
           <rect
@@ -425,7 +425,7 @@ export function StackHhp(props: any) {
             height="57.6764"
             rx="6.36921"
             fill="#C6D4DB"
-            fill-opacity="0.284"
+            fillOpacity="0.284"
             className="svg-elem-51"
           ></rect>
           <rect
@@ -463,8 +463,8 @@ export function StackHhp(props: any) {
             height="42.9102"
             rx="5.47541"
             stroke="url(#paint30_radial_1974_7449)"
-            stroke-opacity="0.46"
-            stroke-width="1.78759"
+            strokeOpacity="0.46"
+            strokeWidth="1.78759"
             className="svg-elem-55"
           ></rect>
           <path
@@ -473,8 +473,8 @@ export function StackHhp(props: any) {
             className="svg-elem-56"
           ></path>
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M157.857 424.672C157.857 426.819 156.113 428.555 153.966 428.555C151.819 428.555 150.075 426.819 150.075 424.672C150.075 422.526 151.819 420.79 153.966 420.79C156.113 420.79 157.857 422.526 157.857 424.672ZM153.966 427.759C155.675 427.759 157.061 426.377 157.061 424.672C157.061 422.968 155.675 421.586 153.966 421.586C152.257 421.586 150.871 422.968 150.871 424.672C150.871 426.377 152.257 427.759 153.966 427.759Z"
             fill="#C3DAFE"
             className="svg-elem-57"
@@ -485,8 +485,8 @@ export function StackHhp(props: any) {
             className="svg-elem-58"
           ></path>
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M167.858 424.672C167.858 426.819 166.114 428.555 163.967 428.555C161.82 428.555 160.076 426.819 160.076 424.672C160.076 422.526 161.82 420.79 163.967 420.79C166.114 420.79 167.858 422.526 167.858 424.672ZM163.967 427.759C165.676 427.759 167.062 426.377 167.062 424.672C167.062 422.968 165.676 421.586 163.967 421.586C162.258 421.586 160.872 422.968 160.872 424.672C160.872 426.377 162.258 427.759 163.967 427.759Z"
             fill="#C3DAFE"
             className="svg-elem-59"
@@ -499,8 +499,8 @@ export function StackHhp(props: any) {
             ></path>
           </g>
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M206.897 422.998H232.147C233.072 422.998 233.822 423.747 233.822 424.672C233.822 425.597 233.072 426.347 232.147 426.347H206.897C205.972 426.347 205.223 425.597 205.223 424.672C205.223 423.747 205.972 422.998 206.897 422.998ZM206.897 423.794C206.412 423.794 206.019 424.187 206.019 424.672C206.019 425.157 206.412 425.551 206.897 425.551H232.147C232.633 425.551 233.026 425.157 233.026 424.672C233.026 424.187 232.633 423.794 232.147 423.794H206.897Z"
             fill="#C3DAFE"
             className="svg-elem-61"
@@ -560,9 +560,9 @@ export function StackHhp(props: any) {
         <path
           d="M161.139 622.51L151.121 632.528L141.103 622.51"
           stroke="#A3BFFA"
-          stroke-width="5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
           className="svg-elem-71"
         ></path>
         <path
@@ -620,50 +620,50 @@ export function StackHhp(props: any) {
             className="svg-elem-80"
           ></rect>
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M176.502 497.873C176.28 498.234 176.284 498.69 176.51 499.048L180.614 505.521C180.88 505.941 181.394 506.133 181.87 505.99L193.712 502.437C194.359 502.243 194.684 501.522 194.401 500.909L186.789 484.396C186.417 483.59 185.298 483.524 184.835 484.28L176.502 497.873ZM186.586 488.171C186.425 487.797 185.877 487.854 185.796 488.254L182.865 502.847C182.804 503.155 183.092 503.418 183.392 503.328L191.574 500.886C191.813 500.814 191.936 500.551 191.837 500.322L186.586 488.171Z"
             fill="white"
             className="svg-elem-81"
           ></path>
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M201.599 494.851H202.32C202.994 494.851 203.498 494.718 203.833 494.452C204.168 494.185 204.335 493.797 204.335 493.288C204.335 492.775 204.195 492.395 203.915 492.15C203.634 491.905 203.194 491.782 202.596 491.782H201.599V494.851ZM206.548 493.211C206.548 494.323 206.201 495.174 205.505 495.763C204.81 496.352 203.821 496.647 202.539 496.647H201.599V500.324H199.407V489.987H202.709C203.963 489.987 204.916 490.256 205.569 490.796C206.222 491.336 206.548 492.141 206.548 493.211V493.211Z"
             fill="white"
             className="svg-elem-82"
           ></path>
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M212.358 492.27C212.651 492.27 212.893 492.291 213.087 492.334L212.924 494.356C212.75 494.309 212.538 494.285 212.288 494.285C211.599 494.285 211.063 494.462 210.679 494.816C210.295 495.169 210.103 495.664 210.103 496.301V500.324H207.946V492.419H209.58L209.898 493.748H210.004C210.249 493.305 210.58 492.948 210.997 492.677C211.414 492.406 211.868 492.27 212.358 492.27"
             fill="white"
             className="svg-elem-83"
           ></path>
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M214.23 500.324H216.387V492.419H214.23V500.324ZM214.139 490.375C214.139 489.673 214.53 489.322 215.312 489.322C216.095 489.322 216.486 489.673 216.486 490.375C216.486 490.71 216.388 490.971 216.193 491.157C215.997 491.343 215.704 491.436 215.312 491.436C214.53 491.436 214.139 491.082 214.139 490.375V490.375Z"
             fill="white"
             className="svg-elem-84"
           ></path>
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M223.979 497.976C223.979 498.787 223.698 499.405 223.134 499.829C222.571 500.253 221.728 500.465 220.607 500.465C220.031 500.465 219.542 500.426 219.136 500.348C218.731 500.271 218.351 500.156 217.998 500.006V498.224C218.398 498.412 218.849 498.57 219.352 498.698C219.854 498.825 220.296 498.888 220.677 498.888C221.46 498.888 221.851 498.662 221.851 498.21C221.851 498.04 221.799 497.902 221.696 497.796C221.592 497.69 221.413 497.57 221.158 497.435C220.904 497.301 220.564 497.144 220.14 496.965C219.532 496.711 219.085 496.475 218.8 496.258C218.515 496.041 218.307 495.793 218.178 495.512C218.048 495.232 217.983 494.886 217.983 494.476C217.983 493.774 218.256 493.231 218.8 492.847C219.345 492.462 220.116 492.271 221.116 492.271C222.068 492.271 222.994 492.478 223.894 492.893L223.244 494.448C222.848 494.278 222.478 494.139 222.134 494.031C221.79 493.923 221.438 493.868 221.08 493.868C220.444 493.868 220.126 494.04 220.126 494.384C220.126 494.578 220.229 494.745 220.433 494.886C220.639 495.028 221.087 495.238 221.78 495.516C222.398 495.766 222.851 495.999 223.138 496.216C223.425 496.433 223.637 496.682 223.774 496.965C223.911 497.248 223.979 497.585 223.979 497.976"
             fill="white"
             className="svg-elem-85"
           ></path>
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M232.522 500.324H230.365V495.707C230.365 495.136 230.27 494.708 230.079 494.423C229.888 494.138 229.588 493.995 229.178 493.995C228.626 493.995 228.226 494.198 227.976 494.604C227.726 495.009 227.601 495.676 227.601 496.605V500.324H225.444V492.419H227.092L227.382 493.43H227.502C227.714 493.067 228.021 492.783 228.421 492.578C228.822 492.373 229.281 492.27 229.8 492.27C230.983 492.27 231.784 492.657 232.204 493.43H232.395C232.607 493.062 232.919 492.777 233.332 492.574C233.744 492.372 234.209 492.27 234.728 492.27C235.624 492.27 236.301 492.5 236.761 492.96C237.22 493.419 237.45 494.156 237.45 495.169V500.324H235.286V495.707C235.286 495.136 235.191 494.708 235 494.423C234.809 494.138 234.509 493.995 234.099 493.995C233.571 493.995 233.176 494.184 232.914 494.561C232.653 494.938 232.522 495.537 232.522 496.357V500.324Z"
             fill="white"
             className="svg-elem-86"
           ></path>
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M243.726 496.661L242.892 496.689C242.265 496.708 241.799 496.821 241.492 497.029C241.186 497.236 241.033 497.552 241.033 497.976C241.033 498.584 241.381 498.888 242.079 498.888C242.578 498.888 242.978 498.745 243.277 498.457C243.577 498.17 243.726 497.788 243.726 497.312V496.661ZM244.363 500.324L243.945 499.249H243.889C243.526 499.706 243.152 500.023 242.768 500.2C242.384 500.377 241.883 500.465 241.266 500.465C240.507 500.465 239.909 500.248 239.473 499.815C239.037 499.381 238.819 498.764 238.819 497.962C238.819 497.123 239.113 496.505 239.699 496.106C240.287 495.708 241.171 495.487 242.355 495.445L243.726 495.403V495.056C243.726 494.255 243.316 493.854 242.496 493.854C241.864 493.854 241.122 494.045 240.269 494.427L239.555 492.97C240.464 492.494 241.473 492.256 242.581 492.256C243.641 492.256 244.454 492.487 245.02 492.949C245.586 493.411 245.869 494.113 245.869 495.056V500.324H244.363Z"
             fill="white"
             className="svg-elem-87"
@@ -719,9 +719,9 @@ export function StackHhp(props: any) {
             width="131.001"
             height="85.9235"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
             <feColorMatrix
               in="SourceAlpha"
               type="matrix"
@@ -770,9 +770,9 @@ export function StackHhp(props: any) {
             width="124.908"
             height="150.722"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
             <feColorMatrix
               in="SourceAlpha"
               type="matrix"
@@ -821,9 +821,9 @@ export function StackHhp(props: any) {
             width="108.277"
             height="124.201"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
             <feColorMatrix
               in="SourceAlpha"
               type="matrix"
@@ -872,9 +872,9 @@ export function StackHhp(props: any) {
             width="108.277"
             height="121.239"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
             <feColorMatrix
               in="SourceAlpha"
               type="matrix"
@@ -923,9 +923,9 @@ export function StackHhp(props: any) {
             width="27.0068"
             height="11.4932"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
             <feBlend
               mode="normal"
               in="SourceGraphic"
@@ -1032,9 +1032,9 @@ export function StackHhp(props: any) {
             width="102.812"
             height="48.6973"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
             <feColorMatrix
               in="SourceAlpha"
               type="matrix"
@@ -1084,8 +1084,8 @@ export function StackHhp(props: any) {
             y2="284.541"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#5A67D6"></stop>
-            <stop offset="1" stop-color="#74A6DD"></stop>
+            <stop stopColor="#5A67D6"></stop>
+            <stop offset="1" stopColor="#74A6DD"></stop>
           </linearGradient>
           <linearGradient
             id="paint1_linear_1974_7449"
@@ -1095,8 +1095,8 @@ export function StackHhp(props: any) {
             y2="183.546"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#92EFE6"></stop>
-            <stop offset="1" stop-color="#5A67D8"></stop>
+            <stop stopColor="#92EFE6"></stop>
+            <stop offset="1" stopColor="#5A67D8"></stop>
           </linearGradient>
           <linearGradient
             id="paint2_linear_1974_7449"
@@ -1106,8 +1106,8 @@ export function StackHhp(props: any) {
             y2="165.771"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#2D3748"></stop>
-            <stop offset="1" stop-color="#273040"></stop>
+            <stop stopColor="#2D3748"></stop>
+            <stop offset="1" stopColor="#273040"></stop>
           </linearGradient>
           <linearGradient
             id="paint3_linear_1974_7449"
@@ -1117,8 +1117,8 @@ export function StackHhp(props: any) {
             y2="183.534"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#92EFE6"></stop>
-            <stop offset="1" stop-color="#5A67D8"></stop>
+            <stop stopColor="#92EFE6"></stop>
+            <stop offset="1" stopColor="#5A67D8"></stop>
           </linearGradient>
           <linearGradient
             id="paint4_linear_1974_7449"
@@ -1128,8 +1128,8 @@ export function StackHhp(props: any) {
             y2="145.88"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="white"></stop>
-            <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+            <stop stopColor="white"></stop>
+            <stop offset="1" stopColor="white" stopOpacity="0"></stop>
           </linearGradient>
           <linearGradient
             id="paint5_linear_1974_7449"
@@ -1139,9 +1139,9 @@ export function StackHhp(props: any) {
             y2="708.081"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#B4C5CD"></stop>
-            <stop offset="0.718232" stop-color="#6C8A98"></stop>
-            <stop offset="1" stop-color="#6B8692"></stop>
+            <stop stopColor="#B4C5CD"></stop>
+            <stop offset="0.718232" stopColor="#6C8A98"></stop>
+            <stop offset="1" stopColor="#6B8692"></stop>
           </linearGradient>
           <linearGradient
             id="paint6_linear_1974_7449"
@@ -1151,8 +1151,8 @@ export function StackHhp(props: any) {
             y2="737.937"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#648697"></stop>
-            <stop offset="1" stop-color="#B8CCD5"></stop>
+            <stop stopColor="#648697"></stop>
+            <stop offset="1" stopColor="#B8CCD5"></stop>
           </linearGradient>
           <radialGradient
             id="paint7_radial_1974_7449"
@@ -1162,8 +1162,8 @@ export function StackHhp(props: any) {
             gradientUnits="userSpaceOnUse"
             gradientTransform="translate(159.789 732.72) rotate(-140.974) scale(29.1464 25.0098)"
           >
-            <stop stop-color="white"></stop>
-            <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+            <stop stopColor="white"></stop>
+            <stop offset="1" stopColor="white" stopOpacity="0"></stop>
           </radialGradient>
           <linearGradient
             id="paint8_linear_1974_7449"
@@ -1173,9 +1173,9 @@ export function StackHhp(props: any) {
             y2="695.197"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#183C56"></stop>
-            <stop offset="0.286458" stop-color="#335D7B"></stop>
-            <stop offset="1" stop-color="#082133"></stop>
+            <stop stopColor="#183C56"></stop>
+            <stop offset="0.286458" stopColor="#335D7B"></stop>
+            <stop offset="1" stopColor="#082133"></stop>
           </linearGradient>
           <linearGradient
             id="paint9_linear_1974_7449"
@@ -1185,9 +1185,9 @@ export function StackHhp(props: any) {
             y2="689.834"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#183C56"></stop>
-            <stop offset="0.286458" stop-color="#335D7B"></stop>
-            <stop offset="1" stop-color="#082133"></stop>
+            <stop stopColor="#183C56"></stop>
+            <stop offset="0.286458" stopColor="#335D7B"></stop>
+            <stop offset="1" stopColor="#082133"></stop>
           </linearGradient>
           <linearGradient
             id="paint10_linear_1974_7449"
@@ -1197,9 +1197,9 @@ export function StackHhp(props: any) {
             y2="683.777"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#B4C5CD"></stop>
-            <stop offset="0.718232" stop-color="#6C8A98"></stop>
-            <stop offset="1" stop-color="#6B8692"></stop>
+            <stop stopColor="#B4C5CD"></stop>
+            <stop offset="0.718232" stopColor="#6C8A98"></stop>
+            <stop offset="1" stopColor="#6B8692"></stop>
           </linearGradient>
           <linearGradient
             id="paint11_linear_1974_7449"
@@ -1209,8 +1209,8 @@ export function StackHhp(props: any) {
             y2="705.777"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#648697"></stop>
-            <stop offset="1" stop-color="#B8CCD5"></stop>
+            <stop stopColor="#648697"></stop>
+            <stop offset="1" stopColor="#B8CCD5"></stop>
           </linearGradient>
           <radialGradient
             id="paint12_radial_1974_7449"
@@ -1220,8 +1220,8 @@ export function StackHhp(props: any) {
             gradientUnits="userSpaceOnUse"
             gradientTransform="translate(159.789 704.018) rotate(-139.028) scale(29.9891 26.0432)"
           >
-            <stop stop-color="white"></stop>
-            <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+            <stop stopColor="white"></stop>
+            <stop offset="1" stopColor="white" stopOpacity="0"></stop>
           </radialGradient>
           <linearGradient
             id="paint13_linear_1974_7449"
@@ -1231,9 +1231,9 @@ export function StackHhp(props: any) {
             y2="664.976"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#183C56"></stop>
-            <stop offset="0.286458" stop-color="#335D7B"></stop>
-            <stop offset="1" stop-color="#082133"></stop>
+            <stop stopColor="#183C56"></stop>
+            <stop offset="0.286458" stopColor="#335D7B"></stop>
+            <stop offset="1" stopColor="#082133"></stop>
           </linearGradient>
           <linearGradient
             id="paint14_linear_1974_7449"
@@ -1243,9 +1243,9 @@ export function StackHhp(props: any) {
             y2="659.017"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#183C56"></stop>
-            <stop offset="0.286458" stop-color="#335D7B"></stop>
-            <stop offset="1" stop-color="#082133"></stop>
+            <stop stopColor="#183C56"></stop>
+            <stop offset="0.286458" stopColor="#335D7B"></stop>
+            <stop offset="1" stopColor="#082133"></stop>
           </linearGradient>
           <linearGradient
             id="paint15_linear_1974_7449"
@@ -1255,9 +1255,9 @@ export function StackHhp(props: any) {
             y2="653.801"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#B4C5CD"></stop>
-            <stop offset="0.718232" stop-color="#6C8A98"></stop>
-            <stop offset="1" stop-color="#6B8692"></stop>
+            <stop stopColor="#B4C5CD"></stop>
+            <stop offset="0.718232" stopColor="#6C8A98"></stop>
+            <stop offset="1" stopColor="#6B8692"></stop>
           </linearGradient>
           <linearGradient
             id="paint16_linear_1974_7449"
@@ -1267,8 +1267,8 @@ export function StackHhp(props: any) {
             y2="689.591"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#B9CAD2"></stop>
-            <stop offset="1" stop-color="#DBE6EB"></stop>
+            <stop stopColor="#B9CAD2"></stop>
+            <stop offset="1" stopColor="#DBE6EB"></stop>
           </linearGradient>
           <radialGradient
             id="paint17_radial_1974_7449"
@@ -1278,8 +1278,8 @@ export function StackHhp(props: any) {
             gradientUnits="userSpaceOnUse"
             gradientTransform="translate(152.045 671.246) rotate(-34.7432) scale(44.959 121.698)"
           >
-            <stop stop-color="white"></stop>
-            <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+            <stop stopColor="white"></stop>
+            <stop offset="1" stopColor="white" stopOpacity="0"></stop>
           </radialGradient>
           <linearGradient
             id="paint18_linear_1974_7449"
@@ -1289,9 +1289,9 @@ export function StackHhp(props: any) {
             y2="426.989"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#B4C5CD"></stop>
-            <stop offset="0.718232" stop-color="#6C8A98"></stop>
-            <stop offset="1" stop-color="#6B8692"></stop>
+            <stop stopColor="#B4C5CD"></stop>
+            <stop offset="0.718232" stopColor="#6C8A98"></stop>
+            <stop offset="1" stopColor="#6B8692"></stop>
           </linearGradient>
           <linearGradient
             id="paint19_linear_1974_7449"
@@ -1301,8 +1301,8 @@ export function StackHhp(props: any) {
             y2="447.263"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#648697"></stop>
-            <stop offset="1" stop-color="#B8CCD5"></stop>
+            <stop stopColor="#648697"></stop>
+            <stop offset="1" stopColor="#B8CCD5"></stop>
           </linearGradient>
           <radialGradient
             id="paint20_radial_1974_7449"
@@ -1312,8 +1312,8 @@ export function StackHhp(props: any) {
             gradientUnits="userSpaceOnUse"
             gradientTransform="translate(162.051 472.893) rotate(-128.121) scale(36.8264 31.373)"
           >
-            <stop stop-color="white"></stop>
-            <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+            <stop stopColor="white"></stop>
+            <stop offset="1" stopColor="white" stopOpacity="0"></stop>
           </radialGradient>
           <linearGradient
             id="paint21_linear_1974_7449"
@@ -1323,9 +1323,9 @@ export function StackHhp(props: any) {
             y2="403.031"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#183C56"></stop>
-            <stop offset="0.286458" stop-color="#335D7B"></stop>
-            <stop offset="1" stop-color="#082133"></stop>
+            <stop stopColor="#183C56"></stop>
+            <stop offset="0.286458" stopColor="#335D7B"></stop>
+            <stop offset="1" stopColor="#082133"></stop>
           </linearGradient>
           <linearGradient
             id="paint22_linear_1974_7449"
@@ -1335,9 +1335,9 @@ export function StackHhp(props: any) {
             y2="395.591"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#183C56"></stop>
-            <stop offset="0.286458" stop-color="#335D7B"></stop>
-            <stop offset="1" stop-color="#082133"></stop>
+            <stop stopColor="#183C56"></stop>
+            <stop offset="0.286458" stopColor="#335D7B"></stop>
+            <stop offset="1" stopColor="#082133"></stop>
           </linearGradient>
           <linearGradient
             id="paint23_linear_1974_7449"
@@ -1347,9 +1347,9 @@ export function StackHhp(props: any) {
             y2="398.15"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#B4C5CD"></stop>
-            <stop offset="0.718232" stop-color="#6C8A98"></stop>
-            <stop offset="1" stop-color="#6B8692"></stop>
+            <stop stopColor="#B4C5CD"></stop>
+            <stop offset="0.718232" stopColor="#6C8A98"></stop>
+            <stop offset="1" stopColor="#6B8692"></stop>
           </linearGradient>
           <linearGradient
             id="paint24_linear_1974_7449"
@@ -1359,8 +1359,8 @@ export function StackHhp(props: any) {
             y2="418.425"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#648697"></stop>
-            <stop offset="1" stop-color="#B8CCD5"></stop>
+            <stop stopColor="#648697"></stop>
+            <stop offset="1" stopColor="#B8CCD5"></stop>
           </linearGradient>
           <radialGradient
             id="paint25_radial_1974_7449"
@@ -1370,8 +1370,8 @@ export function StackHhp(props: any) {
             gradientUnits="userSpaceOnUse"
             gradientTransform="translate(162.051 444.055) rotate(-128.121) scale(36.8264 31.373)"
           >
-            <stop stop-color="white"></stop>
-            <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+            <stop stopColor="white"></stop>
+            <stop offset="1" stopColor="white" stopOpacity="0"></stop>
           </radialGradient>
           <linearGradient
             id="paint26_linear_1974_7449"
@@ -1381,9 +1381,9 @@ export function StackHhp(props: any) {
             y2="374.193"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#183C56"></stop>
-            <stop offset="0.286458" stop-color="#335D7B"></stop>
-            <stop offset="1" stop-color="#082133"></stop>
+            <stop stopColor="#183C56"></stop>
+            <stop offset="0.286458" stopColor="#335D7B"></stop>
+            <stop offset="1" stopColor="#082133"></stop>
           </linearGradient>
           <linearGradient
             id="paint27_linear_1974_7449"
@@ -1393,9 +1393,9 @@ export function StackHhp(props: any) {
             y2="366.752"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#183C56"></stop>
-            <stop offset="0.286458" stop-color="#335D7B"></stop>
-            <stop offset="1" stop-color="#082133"></stop>
+            <stop stopColor="#183C56"></stop>
+            <stop offset="0.286458" stopColor="#335D7B"></stop>
+            <stop offset="1" stopColor="#082133"></stop>
           </linearGradient>
           <linearGradient
             id="paint28_linear_1974_7449"
@@ -1405,9 +1405,9 @@ export function StackHhp(props: any) {
             y2="369.796"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#B4C5CD"></stop>
-            <stop offset="0.718232" stop-color="#6C8A98"></stop>
-            <stop offset="1" stop-color="#6B8692"></stop>
+            <stop stopColor="#B4C5CD"></stop>
+            <stop offset="0.718232" stopColor="#6C8A98"></stop>
+            <stop offset="1" stopColor="#6B8692"></stop>
           </linearGradient>
           <linearGradient
             id="paint29_linear_1974_7449"
@@ -1417,8 +1417,8 @@ export function StackHhp(props: any) {
             y2="427.272"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#B9CAD2"></stop>
-            <stop offset="1" stop-color="#DBE6EB"></stop>
+            <stop stopColor="#B9CAD2"></stop>
+            <stop offset="1" stopColor="#DBE6EB"></stop>
           </linearGradient>
           <radialGradient
             id="paint30_radial_1974_7449"
@@ -1428,8 +1428,8 @@ export function StackHhp(props: any) {
             gradientUnits="userSpaceOnUse"
             gradientTransform="translate(154.274 414.055) rotate(-39.0336) scale(47.7516 135.026)"
           >
-            <stop stop-color="white"></stop>
-            <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+            <stop stopColor="white"></stop>
+            <stop offset="1" stopColor="white" stopOpacity="0"></stop>
           </radialGradient>
           <linearGradient
             id="paint31_linear_1974_7449"
@@ -1439,8 +1439,8 @@ export function StackHhp(props: any) {
             y2="252.787"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#4C51BF"></stop>
-            <stop offset="1" stop-color="#4C51BF" stop-opacity="0"></stop>
+            <stop stopColor="#4C51BF"></stop>
+            <stop offset="1" stopColor="#4C51BF" stopOpacity="0"></stop>
           </linearGradient>
           <linearGradient
             id="paint32_linear_1974_7449"
@@ -1450,9 +1450,9 @@ export function StackHhp(props: any) {
             y2="269.618"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#F7FAFC"></stop>
-            <stop offset="0.88298" stop-color="#EDF2F7"></stop>
-            <stop offset="1" stop-color="#CBD5E0"></stop>
+            <stop stopColor="#F7FAFC"></stop>
+            <stop offset="0.88298" stopColor="#EDF2F7"></stop>
+            <stop offset="1" stopColor="#CBD5E0"></stop>
           </linearGradient>
           <linearGradient
             id="paint33_linear_1974_7449"
@@ -1462,8 +1462,8 @@ export function StackHhp(props: any) {
             y2="280.736"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#4C51BF"></stop>
-            <stop offset="1" stop-color="#4C51BF" stop-opacity="0"></stop>
+            <stop stopColor="#4C51BF"></stop>
+            <stop offset="1" stopColor="#4C51BF" stopOpacity="0"></stop>
           </linearGradient>
           <linearGradient
             id="paint34_linear_1974_7449"
@@ -1473,8 +1473,8 @@ export function StackHhp(props: any) {
             y2="568.101"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#4C51BF"></stop>
-            <stop offset="1" stop-color="#4C51BF" stop-opacity="0"></stop>
+            <stop stopColor="#4C51BF"></stop>
+            <stop offset="1" stopColor="#4C51BF" stopOpacity="0"></stop>
           </linearGradient>
           <linearGradient
             id="paint35_linear_1974_7449"
@@ -1484,9 +1484,9 @@ export function StackHhp(props: any) {
             y2="-0.327942"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#B4C5CD"></stop>
-            <stop offset="0.718232" stop-color="#6C8A98"></stop>
-            <stop offset="1" stop-color="#6B8692"></stop>
+            <stop stopColor="#B4C5CD"></stop>
+            <stop offset="0.718232" stopColor="#6C8A98"></stop>
+            <stop offset="1" stopColor="#6B8692"></stop>
           </linearGradient>
           <linearGradient
             id="paint36_linear_1974_7449"
@@ -1496,8 +1496,8 @@ export function StackHhp(props: any) {
             y2="34.6189"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#335D7B"></stop>
-            <stop offset="1" stop-color="#082133"></stop>
+            <stop stopColor="#335D7B"></stop>
+            <stop offset="1" stopColor="#082133"></stop>
           </linearGradient>
           <linearGradient
             id="paint37_linear_1974_7449"
@@ -1507,8 +1507,8 @@ export function StackHhp(props: any) {
             y2="277.434"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#4C51BF"></stop>
-            <stop offset="1" stop-color="#4C51BF" stop-opacity="0"></stop>
+            <stop stopColor="#4C51BF"></stop>
+            <stop offset="1" stopColor="#4C51BF" stopOpacity="0"></stop>
           </linearGradient>
           <linearGradient
             id="paint38_linear_1974_7449"
@@ -1518,8 +1518,8 @@ export function StackHhp(props: any) {
             y2="572.599"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#4C51BF"></stop>
-            <stop offset="1" stop-color="#4C51BF" stop-opacity="0"></stop>
+            <stop stopColor="#4C51BF"></stop>
+            <stop offset="1" stopColor="#4C51BF" stopOpacity="0"></stop>
           </linearGradient>
           <linearGradient
             id="paint39_linear_1974_7449"
@@ -1529,8 +1529,8 @@ export function StackHhp(props: any) {
             y2="461.599"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#4C51BF"></stop>
-            <stop offset="1" stop-color="#4C51BF" stop-opacity="0"></stop>
+            <stop stopColor="#4C51BF"></stop>
+            <stop offset="1" stopColor="#4C51BF" stopOpacity="0"></stop>
           </linearGradient>
           <clipPath id="clip0_1974_7449">
             <rect

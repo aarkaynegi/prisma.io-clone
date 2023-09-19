@@ -11,8 +11,8 @@ export function Footer() {
         <Container>
           <div className="fontInter flex flex-col-reverse min-[768px]:flex-col">
             <div className="footer-section-one">
-              {menu.map((column) => (
-                <div className="mb-[48px]">
+              {menu.map((column, index) => (
+                <div className="mb-[48px]" key={index}>
                   <FooterSection {...column} />
                 </div>
               ))}
