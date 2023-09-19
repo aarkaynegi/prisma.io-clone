@@ -1,19 +1,36 @@
-import next from '../../../assets/images/fifthSection/nextjs.svg'
-import graphql from '../../../assets/images/fifthSection/graphql.svg'
-import apollo from '../../../assets/images/fifthSection/apollo.svg'
-import hapi from '../../../assets/images/fifthSection/hapi.svg'
-import nest from '../../../assets/images/fifthSection/nest.svg'
-import express from '../../../assets/images/fifthSection/express.svg'
+const frameworks = [
+  {
+    name: 'NextJS',
+    src: require('../../../assets/images/fifthSection/nextjs.svg').default,
+  },
+  {
+    name: 'GraphQL',
+    src: require('../../../assets/images/fifthSection/graphql.svg').default,
+  },
+  {
+    name: 'Apollo',
+    src: require('../../../assets/images/fifthSection/apollo.svg').default,
+  },
+  {
+    name: 'hapi',
+    src: require('../../../assets/images/fifthSection/hapi.svg').default,
+  },
+  {
+    name: 'nest',
+    src: require('../../../assets/images/fifthSection/nest.svg').default,
+  },
+  {
+    name: 'Express',
+    src: require('../../../assets/images/fifthSection/express.svg').default,
+  },
+]
 
 export function FavouriteFrameWorks() {
   return (
     <>
-      <img src={next} alt="NextJS" />
-      <img src={graphql} alt="GraphQL" />
-      <img src={apollo} alt="Apollo" />
-      <img src={hapi} alt="hapi" />
-      <img src={nest} alt="nest" />
-      <img src={express} alt="Express" />
+      {frameworks.map((framework, index) => (
+        <img key={index} src={framework.src} alt={framework.name} />
+      ))}
     </>
   )
 }
