@@ -69,10 +69,10 @@ export function SixthSection() {
               </div>
             </div>
             <div className="sixthBodyTwo">
-              <div className="">
+              <div className="sixthBodyTwoOne">
                 <img src={collab} alt="" />
               </div>
-              <div className="">
+              <div className="sixthBodyTwoTwo">
                 <h3>Collaborate safely with your team</h3>
                 <p>
                   Invite your colleagues and collaborate with appropriate
@@ -83,7 +83,9 @@ export function SixthSection() {
               </div>
             </div>
           </div>
-          <div className="sixthFooter text-center"></div>
+          <div className="sixthFooter text-center">
+            <a href="./data-platform" className="fontInter">Discover the Data Platform <i className="fa-solid fa-arrow-right min-[940px]: "></i></a>
+          </div>
         </Container>
       </div>
     </>
