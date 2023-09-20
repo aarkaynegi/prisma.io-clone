@@ -59,7 +59,8 @@
     background: #e53e3e;
 }
 
-.sixthBodyOne {
+.sixthBodyOne,
+.sixthBodyTwo {
     display: flex;
     flex-direction: column;
     gap: 48px;
@@ -67,11 +68,14 @@
 }
 
 .sixthBodyOneOne,
-.sixthBodyOneTwo {
+.sixthBodyOneTwo,
+.sixthBodyTwoOne,
+.sixthBodyTwoTwo {
     flex: 1 1 0%;
 }
 
-.sixthBodyOneTwo h3 {
+.sixthBodyOneTwo h3,
+.sixthBodyTwoTwo h3 {
     margin-bottom: 18px;
     font-weight: 700;
     color: #2d3748;
@@ -79,7 +83,8 @@
     line-height: 110%;
 }
 
-.sixthBodyOneTwo p {
+.sixthBodyOneTwo p,
+.sixthBOdyTwoTwo p {
     font-weight: 400;
     color: #4a5568;
     font-weight: 400;
@@ -110,7 +115,55 @@
     color: white;
 }
 
+.sixthFooter a{
+    display: inline-flex;
+    justify-content: center;
+    max-width: 100%;
+    text-align: left;
+    z-index: 1000;
+    margin: 4px;
+    width: max-content;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 6px;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+    line-height: 1;
+    transition: background-color 0.1s ease 0s, color 0.2s ease 0s;
+    font-weight: 700;
+    font-size: 18px;
+    border: 1px solid #16a394;
+    background-color: #16a394;
+    color: white;
+    padding: 16px 40px 16px 24px;
+}
+
+.sixthFooter a i{
+    color: white;
+    transition: transform 0.2s ease 0s;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 16px;
+}
+
+.sixthFooter a:hover{
+    border: 1px solid #187367;
+    background-color: #187367;
+    color: white;
+}
+
+.sixthFooter a:hover i{
+    transform: translate(4px, -50%);
+}
+
 @media (min-width:940px) {
+
+    .sixthFooter a{
+        width: auto;
+    }
+
     .sixth-section {
         padding: 112px 0px 110px;
     }
@@ -131,7 +184,7 @@
         margin: 0px;
     }
 
-    .sixthBodyOne {
+    .sixthBodyOne, .sixthBodyTwo {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
@@ -139,18 +192,23 @@
         margin-bottom: 70px;
     }
 
-    .sixthBodyOneTwo {
+    .sixthBodyTwo {
+        margin-top: 75px;
+        margin-bottom: 100px;
+    }
+
+    .sixthBodyOneTwo, .sixthBodyTwoTwo {
         margin-top: 4px;
     }
 
-    .sixthBodyOneTwo h3 {
+    .sixthBodyOneTwo h3, .sixthBodyTwoTwo h3 {
         margin-top: -2px;
         font-weight: 700;
         margin-bottom: 16px;
         font-size: 36px;
     }
 
-    .sixthBodyOneTwo p {
+    .sixthBodyOneTwo p, .sixthBodyTwoTwo p {
         font-weight: 400;
     }
 }
