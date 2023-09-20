@@ -73,7 +73,7 @@ export function SixthSection() {
                 <img src={collab} alt="" />
               </div>
               <div className="sixthBodyTwoTwo">
-                <h3>Collaborate safely with your team</h3>
+                <h3>Collaborate safely with your team.</h3>
                 <p>
                   Invite your colleagues and collaborate with appropriate
                   permissions. Manage and verify your application data in the
@@ -84,7 +84,10 @@ export function SixthSection() {
             </div>
           </div>
           <div className="sixthFooter text-center">
-            <a href="./data-platform" className="fontInter">Discover the Data Platform <i className="fa-solid fa-arrow-right min-[940px]: "></i></a>
+            <a href="./data-platform" className="fontInter">
+              Discover the Data Platform{' '}
+              <i className="fa-solid fa-arrow-right min-[940px]: "></i>
+            </a>
           </div>
         </Container>
       </div>
