@@ -73,7 +73,7 @@ export function SixthSection() {
                 <img src={collab} alt="" />
               </div>
               <div className="sixthBodyTwoTwo">
-                <h3>Collaborate safely with your team.</h3>
+                <h3>Collaborate safely with your team</h3>
                 <p>
                   Invite your colleagues and collaborate with appropriate
                   permissions. Manage and verify your application data in the
