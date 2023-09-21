@@ -33,7 +33,7 @@
 }
 
 .companyLogo {
-  filter: grayscale(100%);
+  filter: grayscale(100%) opacity(0.8);
   transition: filter 0.1s;
 }
 
