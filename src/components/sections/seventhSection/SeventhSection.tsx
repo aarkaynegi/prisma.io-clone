@@ -1,8 +1,8 @@
 import Slider, { Settings } from 'react-slick'
 import elSevier from '../../../assets/images/seventhSection/slider/elsevier.svg'
+import gatsby from '../../../assets/images/seventhSection/slider/gatsby.svg'
 import grover from '../../../assets/images/seventhSection/slider/grover.svg'
 import ihi from '../../../assets/images/seventhSection/slider/ihi.svg'
-import gatsby from '../../../assets/images/seventhSection/slider/gatsby.svg'
 import insta from '../../../assets/images/seventhSection/slider/insta.svg'
 import invisible from '../../../assets/images/seventhSection/slider/invisible.svg'
 import outrider from '../../../assets/images/seventhSection/slider/outrider.svg'
@@ -86,11 +86,11 @@ export const SeventhSection: React.FC = () => {
               <Slider {...sliderSetting}>
                 {companyLogos.map((obj, index) => (
                   <a
+                    key={index}
                     href={obj.link}
                     className="!flex items-center justify-center w-max"
                   >
                     <img
-                      key={index}
                       src={obj.logo}
                       alt={`${obj.logo} Logo`}
                       className="companyLogo"

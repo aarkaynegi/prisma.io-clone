@@ -13,7 +13,7 @@ export const HeaderLogo: React.FunctionComponent = () => {
         />
       </a>
       <button className="toggleBtn">
-        <i className="fa-solid fa-bars"></i>
+        <i className="fa-solid fa-bars text-[1.5rem]"></i>
       </button>
     </div>
   )
