@@ -94,4 +94,22 @@
     line-height: 1;
 }
 
-/* #f7fafc */
+@media (max-width: 1024px) {
+    .toggleBtn {
+        display: block;
+        padding: 16px 24px;
+        margin: 4px;
+    }
+
+    .logo {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav,
+    .get-started {
+        display: none;
+    }
+}

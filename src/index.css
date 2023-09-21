@@ -1,18 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: var(--inter);
   font-size: 1.125rem;
-  line-height: 1.6;
-  ;
+  line-height: 140%;
 }
 
 code {
@@ -51,7 +47,7 @@ svg {
 
 
 .fontInter {
-  font-family: var(--fontInter);
+  font-family: var(--inter);
 }
 
 .headingColor {
@@ -111,19 +107,6 @@ a {
 }
 
 @media (max-width: 1024px) {
-  .toggleBtn {
-    display: block;
-    padding: 16px 24px;
-    margin: 4px;
-  }
-
-  .logo {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
   .hero-section>div {
     flex-wrap: wrap;
   }
@@ -150,8 +133,4 @@ a {
     width: 100%;
   }
 
-  .nav,
-  .get-started {
-    display: none;
-  }
 }

@@ -1,15 +1,34 @@
-import './ThirdSection.css'
+import { Container } from 'components/container/Container'
+import ts from '../../../assets/images/thirdSection/ts-framed.svg'
 import thirdSectionSchema from '../../../assets/images/thirdSection/typesafe-database-client.svg'
 import vscode from '../../../assets/images/thirdSection/vscode.svg'
-import ts from '../../../assets/images/thirdSection/ts-framed.svg'
-import { Container } from 'components/container/Container'
+import './ThirdSection.css'
 
 export function ThirdSection() {
+  const prismaClients: string[] = [
+    'Auto-generated',
+    'Easy Relation API',
+    'Advanced Pagination',
+    'Nested Writes',
+    'Raw Database Access',
+    'Sorting and Filtering',
+    'Transactions',
+    'Aggregations',
+    'Case-insensitive Mode',
+    'Select Distinct',
+    'Helpful Error Messages',
+    'SQL Query Logging',
+    'JSON Field Support',
+    'Native Database Types',
+    'Custom Generators',
+    'Middleware',
+  ]
+
   return (
     <>
       <div className="third-section">
         <Container>
-          <div className="mb-[100px] mt-[82px] w-full items-center justify-between gap-[50px] inline-flex lg:gap-[0] gap-[32px] lg:flex-row flex-col">
+          <div className="mb-[100px] mt-[82px] w-full items-center justify-between gap-[50px] inline-flex gap-[32px] lg:flex-row flex-col min-[815px]:gap-[0]">
             <div className="max-w-[565px] w-full">
               <img src={thirdSectionSchema} alt="typesafe-database-client" />
             </div>
@@ -84,71 +103,16 @@ export function ThirdSection() {
             </div>
           </div>
           <div className="hidden pt-[33px] mt-[53px] mb-[-53px] z-10 relative bg-white customShadow rounded-[10px] lg:block">
-            <div className="inline-grid grid-rows-[repeat(4,auto)] grid-cols-[repeat(4,_1fr)] px-[60px] gap-[12px] w-full mb-[35px]">
-              <div className="text-[18px] text-[#04c8bb] flex font-[600] items-center">
-                <i className="fa-solid fa-check text-center text-[25px] mr-[14px] w-[24px] h-[24px]"></i>
-                <span className="text-[#4a5568]">Auto-generated</span>
-              </div>
-              <div className="text-[18px] text-[#04c8bb] flex font-[600] items-center">
-                <i className="fa-solid fa-check text-center text-[25px] mr-[14px] w-[24px] h-[24px]"></i>
-                <span className="text-[#4a5568]">Easy Relation API</span>
-              </div>
-              <div className="text-[18px] text-[#04c8bb] flex font-[600] items-center">
-                <i className="fa-solid fa-check text-center text-[25px] mr-[14px] w-[24px] h-[24px]"></i>
-                <span className="text-[#4a5568]">Advanced Pagination</span>
-              </div>
-              <div className="text-[18px] text-[#04c8bb] flex font-[600] items-center">
-                <i className="fa-solid fa-check text-center text-[25px] mr-[14px] w-[24px] h-[24px]"></i>
-                <span className="text-[#4a5568]">Nested Writes</span>
-              </div>
-              <div className="text-[18px] text-[#04c8bb] flex font-[600] items-center">
-                <i className="fa-solid fa-check text-center text-[25px] mr-[14px] w-[24px] h-[24px]"></i>
-                <span className="text-[#4a5568]">Raw Database Access</span>
-              </div>
-              <div className="text-[18px] text-[#04c8bb] flex font-[600] items-center">
-                <i className="fa-solid fa-check text-center text-[25px] mr-[14px] w-[24px] h-[24px]"></i>
-                <span className="text-[#4a5568]">Sorting and Filtering</span>
-              </div>
-              <div className="text-[18px] text-[#04c8bb] flex font-[600] items-center">
-                <i className="fa-solid fa-check text-center text-[25px] mr-[14px] w-[24px] h-[24px]"></i>
-                <span className="text-[#4a5568]">Transactions</span>
-              </div>
-              <div className="text-[18px] text-[#04c8bb] flex font-[600] items-center">
-                <i className="fa-solid fa-check text-center text-[25px] mr-[14px] w-[24px] h-[24px]"></i>
-                <span className="text-[#4a5568]">Aggregations</span>
-              </div>
-              <div className="text-[18px] text-[#04c8bb] flex font-[600] items-center">
-                <i className="fa-solid fa-check text-center text-[25px] mr-[14px] w-[24px] h-[24px]"></i>
-                <span className="text-[#4a5568]">Case-insensitive Mode</span>
-              </div>
-              <div className="text-[18px] text-[#04c8bb] flex font-[600] items-center">
-                <i className="fa-solid fa-check text-center text-[25px] mr-[14px] w-[24px] h-[24px]"></i>
-                <span className="text-[#4a5568]">Select Distinct</span>
-              </div>
-              <div className="text-[18px] text-[#04c8bb] flex font-[600] items-center">
-                <i className="fa-solid fa-check text-center text-[25px] mr-[14px] w-[24px] h-[24px]"></i>
-                <span className="text-[#4a5568]">Helpful Error Messages</span>
-              </div>
-              <div className="text-[18px] text-[#04c8bb] flex font-[600] items-center">
-                <i className="fa-solid fa-check text-center text-[25px] mr-[14px] w-[24px] h-[24px]"></i>
-                <span className="text-[#4a5568]">SQL Query Logging</span>
-              </div>
-              <div className="text-[18px] text-[#04c8bb] flex font-[600] items-center">
-                <i className="fa-solid fa-check text-center text-[25px] mr-[14px] w-[24px] h-[24px]"></i>
-                <span className="text-[#4a5568]">JSON Field Support</span>
-              </div>
-              <div className="text-[18px] text-[#04c8bb] flex font-[600] items-center">
-                <i className="fa-solid fa-check text-center text-[25px] mr-[14px] w-[24px] h-[24px]"></i>
-                <span className="text-[#4a5568]">Native Database Types</span>
-              </div>
-              <div className="text-[18px] text-[#04c8bb] flex font-[600] items-center">
-                <i className="fa-solid fa-check text-center text-[25px] mr-[14px] w-[24px] h-[24px]"></i>
-                <span className="text-[#4a5568]">Custom Generators</span>
-              </div>
-              <div className="text-[18px] text-[#04c8bb] flex font-[600] items-center">
-                <i className="fa-solid fa-check text-center text-[25px] mr-[14px] w-[24px] h-[24px]"></i>
-                <span className="text-[#4a5568]">Middleware</span>
-              </div>
+            <div className="fontInter inline-grid grid-rows-[repeat(4,auto)] grid-cols-[repeat(4,_1fr)] px-[60px] gap-[12px] w-full mb-[35px]">
+              {prismaClients.map((item, index) => (
+                <div
+                  key={index}
+                  className="text-[18px] text-[#04c8bb] flex font-[600] items-center"
+                >
+                  <i className="fa-solid fa-check text-center text-[25px] mr-[14px] w-[24px] h-[24px]"></i>
+                  <span className="text-[#4a5568]">{item}</span>
+                </div>
+              ))}
             </div>
             <div className="py-[20px] border-t border-[#e2e8f0]">
               <a

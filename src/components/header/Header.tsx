@@ -1,7 +1,7 @@
+import './Header.css'
 import { HeaderButton } from './HeaderButton'
 import { HeaderLogo } from './HeaderLogo'
 import { NavBar } from './NavBar'
-import './Header.css'
 
 export function Header() {
   return (
@@ -20,7 +20,7 @@ export function Header() {
           </div>
         </div>
       </div>
-      <div className="flex justify-between items-center max-w-[1248px] px-[2rem] lg:px-[1.5rem] py-[8px] m-auto">
+      <div className="flex justify-between items-center max-w-[1248px] px-[2rem] lg:pr-[1.5rem] lg:pl-[2.5rem] py-[8px] m-auto">
         <HeaderLogo />
         <NavBar />
         <HeaderButton />
