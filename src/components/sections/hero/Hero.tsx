@@ -5,18 +5,17 @@ export function Hero() {
         <div className="flex px-[2rem] lg:px-[1.5rem] m-auto gap-8 max-w-[1248px] items-center">
           <div className="section-body">
             <div>
-              <h1 className="hero-title headingColor font-bold">
+              <h1 className="hero-title headingColor font-bold fontBarlow">
                 Next-generation <span className="priDark">Node.js</span> and{' '}
                 <span className="priDark">TypeScript</span> ORM
               </h1>
             </div>
-            <div className="hero-body text-[24px] leading-[150%] mb-[32px] me-[100px]">
-              <p>
-                Prisma unlocks a new level of <b>developer experience</b> when
-                working with databases thanks to its intuiative data model,
-                automated migrations, type-safety & auto-completion
-              </p>
-            </div>
+            <p className="hero-body text-[24px] leading-[150%] mb-[32px] me-[100px] font-[300]">
+              Prisma unlocks a new level of{' '}
+              <b className="font-bold">developer experience</b> when working
+              with databases thanks to its intuitive data model, automated
+              migrations, type-safety & auto-completion
+            </p>
             <div className="hero-buttons">
               <a
                 href="/"

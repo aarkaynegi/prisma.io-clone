@@ -5,10 +5,12 @@ export const NavBar: React.FunctionComponent = () => {
   return (
     <div className="nav">
       <nav>
-        <ul className="flex sm:justify-center gap-[10px] font-bold">
+        <ul className="flex sm:justify-center gap-[10px]">
           <li className="nav-link">
             <div className="nav-item flex gap-1 items-center">
-              <a href="./products">Products</a>
+              <a href="./products" className="font-[500]">
+                Product
+              </a>
               <i className="fa-solid fa-chevron-down"></i>
             </div>
             <div className="nav-sub-item product_nav-sub-item">
