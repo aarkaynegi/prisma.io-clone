@@ -112,12 +112,16 @@ export const NavBar: React.FunctionComponent = () => {
           </li>
           <li className="nav-link">
             <div className="nav-item flex gap-1 items-center">
-              <a href="./docs">Docs</a>
+              <a href="./docs" className="font-[500]">
+                Docs
+              </a>
             </div>
           </li>
           <li className="nav-link">
             <div className="nav-item flex gap-1 items-center">
-              <a href="./developer">Developer</a>
+              <a href="./developer" className="font-[500]">
+                Developer
+              </a>
               <i className="fa-solid fa-chevron-down"></i>
             </div>
             <div className="nav-sub-item developer_nav-sub-items">
@@ -236,7 +240,9 @@ export const NavBar: React.FunctionComponent = () => {
           </li>
           <li className="nav-link">
             <div className="nav-item flex gap-1 items-center">
-              <a href="./use-cases">Use Cases</a>
+              <a href="./use-cases" className="font-[500]">
+                Use Cases
+              </a>
               <i className="fa-solid fa-chevron-down"></i>
             </div>
             <div className="nav-sub-item product_nav-sub-item">
@@ -276,7 +282,9 @@ export const NavBar: React.FunctionComponent = () => {
           </li>
           <li className="nav-link">
             <div className="nav-item flex gap-1 items-center">
-              <a href="./company">Company</a>
+              <a href="./company" className="font-[500]">
+                Company
+              </a>
               <i className="fa-solid fa-chevron-down"></i>
             </div>
             <div className="nav-sub-item developer_nav-sub-items">
