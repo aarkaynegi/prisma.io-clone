@@ -5,7 +5,7 @@ export function Hero() {
         <div className="flex px-[2rem] lg:px-[1.5rem] m-auto gap-8 max-w-[1248px] items-center">
           <div className="section-body">
             <div>
-              <h1 className="hero-title headingColor font-bold fontBarlow">
+              <h1 className="hero-title headingColor font-[700] fontBarlow">
                 Next-generation <span className="priDark">Node.js</span> and{' '}
                 <span className="priDark">TypeScript</span> ORM
               </h1>
@@ -16,16 +16,16 @@ export function Hero() {
               with databases thanks to its intuitive data model, automated
               migrations, type-safety & auto-completion
             </p>
-            <div className="hero-buttons">
+            <div className="hero-buttons flex gap-[20px]">
               <a
                 href="/"
-                className="rounded bg-[#5A67D8] hover:bg-[#4C51BF] text-[#ffffff] font-bold px-[24px] py-[16px] m-[4px] text-14px lineHeight-[14px]"
+                className="rounded-[6px] bg-[#5A67D8] hover:bg-[#4C51BF] text-[#ffffff] font-[600] px-[25px] py-[15px] m-[4px] text-[1.25rem] fontBarlow h-fit"
               >
                 Quickstart
               </a>
               <a
                 href="/"
-                className="rounded text-[#5A67D8] font-bold px-[24px] py-[16px] m-[4px] text-14px lineHeight-[14px] border-[1px] border-[#5A67D8]"
+                className="rounded-[6px] text-[#5A67D8] font-[600] px-[25px] py-[15px] m-[4px] text-[1.25rem] lineHeight-[14px] border-[1px] border-[#5A67D8] fontBarlow h-fit"
               >
                 Playground
                 <i className="fa-solid fa-up-right-from-square ms-2"></i>
