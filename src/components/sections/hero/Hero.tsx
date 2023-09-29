@@ -1,3 +1,10 @@
+interface YouTubeVideoProps {
+  width: number
+  height: number
+  src: string
+  title: string
+}
+
 export function Hero() {
   return (
     <>
@@ -35,11 +42,12 @@ export function Hero() {
           <div className="yt-video">
             <iframe
               className="rounded-[10px]"
-              width="480"
-              height="288"
-              src="https://www.youtube.com/embed/EEDGwLB55bI"
-              title="What Is Prisma?"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              width={480}
+              height={288}
+              src={'https://www.youtube.com/embed/EEDGwLB55bI'}
+              title={'What Is Prisma?'}
+              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; autoplay"
+              allowFullScreen
             ></iframe>
           </div>
         </div>
