@@ -109,3 +109,7 @@
     color: #000;
     font-size: 28px;
 }
+
+.testimonialComment span {
+    font-weight: 700;
+}

@@ -16,19 +16,19 @@ export function FirstSection() {
                 {'\u00A0'}
               </a>
               <i className="fa-brands fa-github fa-2x me-[24px]"></i>
-              <span className="font-[700] text-[38px] leading-[100%] me-[8px]">
+              <span className="font-[600] text-[38px] leading-[100%] me-[8px] fontBarlow">
                 30k+
               </span>
-              <span className="text-[24px] mt-[8px] leading-[120%]">
+              <span className="text-[24px] mt-[8px] leading-[120%] font-[300]">
                 Stars on GitHub
               </span>
             </div>
             <div className="flex items-center">
               <i className="fa-solid fa-rocket fa-2x me-[24px]"></i>
-              <span className="font-[700] text-[38px] leading-[100%] me-[8px]">
+              <span className="font-[600] text-[38px] leading-[100%] me-[8px] fontBarlow">
                 250k+
               </span>
-              <span className="text-[24px] mt-[8px] leading-[120%]">
+              <span className="text-[24px] mt-[8px] leading-[120%] font-[300]">
                 Active developers
               </span>
             </div>

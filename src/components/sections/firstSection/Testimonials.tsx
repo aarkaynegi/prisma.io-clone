@@ -22,7 +22,7 @@ const testimonials: ITestimonials[] = [
     designation: 'DevOps Engineer',
     company: 'Tryg',
     comment:
-      '“Our setup with Prisma enabled us to <b>generate everything from code</b> and ensure our developers can iterate very quickly.”',
+      '“Our setup with Prisma enabled us to <span>generate everything from code</span> and ensure our developers can iterate very quickly.”',
     profile: 'lasse-abelsen.webp',
   },
   {
@@ -30,7 +30,7 @@ const testimonials: ITestimonials[] = [
     author: 'Serghei Ghidora',
     designation: 'Tech Lead',
     company: 'Elsevier',
-    comment: `“The flexibility of <b>moving fast</b> and changing the product based on user feedback fast was crucial”`,
+    comment: `“The flexibility of <span>moving fast</span> and changing the product based on user feedback fast was crucial”`,
     profile: 'serghei-ghidora.webp',
   },
   {
@@ -39,7 +39,7 @@ const testimonials: ITestimonials[] = [
     designation: 'Head of Mobile',
     company: 'Rapha',
     comment:
-      '“Prisma helps us <b>unify data access</b> from multiple enterprise systems into a single API. It means we can move very quickly whilst staying flexible.”',
+      '“Prisma helps us <span>unify data access</span> from multiple enterprise systems into a single API. It means we can move very quickly whilst staying flexible.”',
     profile: 'tom-hutchinson.webp',
   },
 ]
@@ -98,11 +98,11 @@ export const Testimonials: React.FC = () => {
       {testimonials.map((testimonial, index) => (
         <div className="p-[30px]" key={index}>
           <div className="py-[30px] pl-[53px] pr-[46px] max-w-[966px] rounded-[10px] bg-white relative flex flex-col testimonialShadow">
-            <span className="pri icon absolute top-[20px] left-[53px] text-[74px] fontInter">
+            <span className="absolute pri icon top-[20px] left-[53px] text-[74px] fontInter leading-[140%]">
               “
             </span>
             <span
-              className="textNormal pt-[53px] mb-[24px] text-[24px] fontInter"
+              className="testimonialComment textNormal pt-[53px] mb-[24px] text-[24px] fontInter font-[300] leading-[140%]"
               dangerouslySetInnerHTML={{ __html: testimonial.comment }}
             />
             <div className="flex items-center gap-[20px] textLight fontBarlow leading-[140%]">
