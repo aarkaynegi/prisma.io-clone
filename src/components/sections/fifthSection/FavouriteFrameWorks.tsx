@@ -28,8 +28,8 @@ const frameworks = [
 export function FavouriteFrameWorks() {
   return (
     <>
-      {frameworks.map((framework, index) => (
-        <img key={index} src={framework.src} alt={framework.name} />
+      {frameworks.map(({ name, src }) => (
+        <img key={name} src={src} alt={name} />
       ))}
     </>
   )
