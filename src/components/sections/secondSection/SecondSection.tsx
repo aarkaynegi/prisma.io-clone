@@ -6,6 +6,7 @@ import './SecondSection.css'
 interface BadgeItemProps {
   title: string
   badgeList: string[]
+  maxWidth: string
 }
 
 const badgeItems: string[] = [
@@ -53,17 +54,26 @@ export function SecondSection(): JSX.Element {
           <BadgeItem
             title="Supported Languages"
             badgeList={['JavaScript', 'TypeScript']}
+            maxWidth="max-w-[275px]"
           />
-          <BadgeItem title="Supported Databases" badgeList={badgeItems} />
+          <BadgeItem
+            title="Supported Databases"
+            badgeList={badgeItems}
+            maxWidth="max-w-[832px]"
+          />
         </div>
       </Container>
     </div>
   )
 }
 
-function BadgeItem({ title, badgeList }: BadgeItemProps): JSX.Element {
+function BadgeItem({
+  title,
+  badgeList,
+  maxWidth,
+}: BadgeItemProps): JSX.Element {
   return (
-    <div className="max-w-[275px] pointer w-full relative group">
+    <div className={`${maxWidth} pointer w-full relative group`}>
       <a href="./stack">
         <span className="text-[18px] fontBarlow block mb-[32px] text-[#a0aec0] uppercase tracking-[0.1em] leading-[100%] group-hover:opacity-50">
           {title}
