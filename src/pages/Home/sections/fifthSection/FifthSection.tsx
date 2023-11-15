@@ -1,6 +1,6 @@
-import { Container } from 'components/container/Container'
-import { StackDesktop } from 'components/svgs/StackDesktop'
-import { StackHhp } from 'components/svgs/StackHhp'
+import { Container } from 'pages/Home/container/Container'
+import { StackDesktop } from 'pages/Home/svgs/StackDesktop'
+import { StackHhp } from 'pages/Home/svgs/StackHhp'
 import React, { useEffect, useRef, useState } from 'react'
 import { FavouriteFrameWorks } from './FavouriteFrameWorks'
 

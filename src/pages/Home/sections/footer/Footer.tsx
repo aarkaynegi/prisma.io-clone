@@ -1,5 +1,5 @@
-import { Container } from 'components/container/Container'
-import logo from '../../../assets/images/prisma-logo-dark.svg'
+import { Container } from 'pages/Home/container/Container'
+import logo from '../../../../assets/images/prisma-logo-dark.svg'
 import './Footer.css'
 import { FooterSection } from './FooterSecton'
 import { menu } from './footer-data'

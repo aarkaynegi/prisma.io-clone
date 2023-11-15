@@ -1,8 +1,8 @@
 import React from 'react'
-import { Container } from 'components/container/Container'
-import thirdSectionSchema from '../../../assets/images/thirdSection/typesafe-database-client.svg'
-import vscode from '../../../assets/images/thirdSection/vscode.svg'
-import ts from '../../../assets/images/thirdSection/ts-framed.svg'
+import { Container } from 'pages/Home/container/Container'
+import thirdSectionSchema from '../../../../assets/images/thirdSection/typesafe-database-client.svg'
+import vscode from '../../../../assets/images/thirdSection/vscode.svg'
+import ts from '../../../../assets/images/thirdSection/ts-framed.svg'
 import './ThirdSection.css'
 
 interface PrismaClientProps {

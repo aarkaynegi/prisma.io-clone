@@ -1,29 +1,16 @@
-import { FifthSection } from 'components/sections/fifthSection/FifthSection'
-import { FirstSection } from 'components/sections/firstSection/FirstSection'
-import { Footer } from 'components/sections/footer/Footer'
-import { FourthSection } from 'components/sections/fourthSection/FourthSection'
-import { Hero } from 'components/sections/hero/Hero'
-import { SecondSection } from 'components/sections/secondSection/SecondSection'
-import { SeventhSection } from 'components/sections/seventhSection/SeventhSection'
-import { SixthSection } from 'components/sections/sixthSection/SixthSection'
-import { ThirdSection } from 'components/sections/thirdSection/ThirdSection'
-import { Header } from './components/header/Header'
+import { Routes, Route } from 'react-router-dom';
+import Home from './pages/Home/Home';
+import Docs from './pages/Docs/Docs';
 
-function App() {
-  return (
-    <div>
-      <Header />
-      <Hero />
-      <FirstSection />
-      <SecondSection />
-      <ThirdSection />
-      <FourthSection />
-      <FifthSection />
-      <SixthSection />
-      <SeventhSection />
-      <Footer />
-    </div>
-  )
-}
+const App = () => {
+ return (
+    <>
+       <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/docs" element={<Docs />} />
+       </Routes>
+    </>
+ );
+};
 
-export default App
+export default App;

@@ -1,10 +1,10 @@
-import { Container } from 'components/container/Container'
+import { Container } from 'pages/Home/container/Container'
 import { useState } from 'react'
-import { SixthSectionSVG } from '../../../assets/images/sixthSection/SixthSectionSVG'
-import { SixthSectionSVG2 } from '../../../assets/images/sixthSection/SixthSectionSVG2'
+import { SixthSectionSVG } from '../../../../assets/images/sixthSection/SixthSectionSVG'
+import { SixthSectionSVG2 } from '../../../../assets/images/sixthSection/SixthSectionSVG2'
 import './SixthSection.css'
 
-import collab from '../../../assets/images/sixthSection/optimise-filter.svg'
+import collab from '../../../../assets/images/sixthSection/optimise-filter.svg'
 
 export function SixthSection() {
   const [showSvg, setShowSvg] = useState(true)

@@ -1,4 +1,4 @@
-import logo from '../../assets/images/prisma-logo-dark.svg'
+import logo from '../../../assets/images/prisma-logo-dark.svg'
 
 export const HeaderLogo: React.FunctionComponent = () => {
   return (

@@ -1,7 +1,7 @@
-import { Container } from 'components/container/Container'
+import { Container } from 'pages/Home/container/Container'
 import './FourthSection.css'
-import fourthFirstSection from '../../../assets/images/fourthSection/hasslefree-migrations.svg'
-import fourthSecondSection from '../../../assets/images/fourthSection/visual-database.svg'
+import fourthFirstSection from '../../../../assets/images/fourthSection/hasslefree-migrations.svg'
+import fourthSecondSection from '../../../../assets/images/fourthSection/visual-database.svg'
 
 export function FourthSection() {
   return (
