@@ -1,4 +1,4 @@
-import { Container } from 'components/container/Container'
+import { Container } from 'pages/Home/container/Container'
 import './FirstSection.css'
 import { Testimonials } from './Testimonials'
 

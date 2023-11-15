@@ -1,4 +1,4 @@
-import { Container } from 'components/container/Container'
+import { Container } from 'pages/Home/container/Container'
 import './Header.css'
 import { HeaderButton } from './HeaderButton'
 import { HeaderLogo } from './HeaderLogo'

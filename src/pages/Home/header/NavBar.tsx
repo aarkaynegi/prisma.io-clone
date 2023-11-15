@@ -1,5 +1,5 @@
-import logo from '../../assets/images/prisma-logo.svg'
-import playground from '../../assets/images/nav-playground.svg'
+import logo from '../../../assets/images/prisma-logo.svg'
+import playground from '../../../assets/images/nav-playground.svg'
 
 export const NavBar: React.FunctionComponent = () => {
   return (

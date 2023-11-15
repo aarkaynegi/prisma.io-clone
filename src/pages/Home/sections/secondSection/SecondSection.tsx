@@ -1,6 +1,6 @@
 import React from 'react'
-import { Container } from 'components/container/Container'
-import schemaImage from '../../../assets/images/secondSection/second-section-schema.svg'
+import { Container } from 'pages/Home/container/Container'
+import schemaImage from '../../../../assets/images/secondSection/second-section-schema.svg'
 import './SecondSection.css'
 
 interface BadgeItemProps {
